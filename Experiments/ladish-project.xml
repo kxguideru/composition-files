@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+ladish Project.
+-->
+<!-- Fri Nov  6 21:40:34 2015 -->
+<project name="Дополнительный проект" uuid="b3263e1d-8e7e-4a1b-a94c-2c7995c4b0cc">
+  <room>
+    <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
+    <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
+    <port name="MIDI" uuid="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" type="midi" direction="capture" />
+    <port name="Left" uuid="2776ef6f-39e1-4c5e-8920-3deeb409c3f5" type="audio" direction="playback" />
+    <port name="Right" uuid="b371a9a1-18cb-4932-813c-daf278cf2b20" type="audio" direction="playback" />
+    <port name="Monitor Left" uuid="f50862dd-3071-4727-be1c-3c9a115d2141" type="audio" direction="playback" />
+    <port name="Monitor Right" uuid="35aac0d6-189d-412d-91a1-0a17212cbdb4" type="audio" direction="playback" />
+    <port name="MIDI" uuid="04f5fa90-f453-479d-8f3a-2f92cf78c604" type="midi" direction="playback" />
+  </room>
+  <jack>
+    <clients>
+      <client name="a2j" uuid="be23a242-e2b2-11de-b795-002618af5e42">
+        <ports>
+          <port name="Rosegarden (playback): record in" uuid="a0bb55d7-55e6-477b-a182-994ba1b10203" />
+          <port name="Rosegarden (capture): sync out" uuid="d477db67-af4b-4f65-a280-2f0d2dc1a466" />
+          <port name="Rosegarden (capture): external controller" uuid="e67f3b53-ec69-4d14-ae8a-e0cdc4fa1da3" />
+          <port name="Rosegarden (playback): external controller" uuid="785ca609-6c92-4ecd-9f92-ee1da2fa4072" />
+          <port name="Rosegarden (capture): out 1 - General MIDI Device" uuid="ea4fd479-dfb1-4dbc-9024-90cc1d33bb88" />
+        </ports>
+      </client>
+      <client name="Rosegarden" uuid="96c9599e-907d-4802-9c58-7503bbeab4aa">
+        <ports>
+          <port name="record in 1 L" uuid="8e271595-12e7-4d20-b2a2-91c8e6a9e9c4" />
+          <port name="record in 1 R" uuid="03a2519e-77df-4bcb-be8b-bfd935416046" />
+          <port name="master out L" uuid="1e6c45e4-f0bf-4fc3-9138-ab5f0505624e" />
+          <port name="master out R" uuid="62b0a269-3d3b-4003-9ef3-1d7237972261" />
+          <port name="record monitor out L" uuid="7f06e36f-1041-4465-98db-8d4b1cbc2b26" />
+          <port name="record monitor out R" uuid="548c6967-fc1b-4509-af65-62abda7e1ba0" />
+          <port name="record in 2 L" uuid="e80e9404-d9c3-485a-be3d-e3d063965f15" />
+          <port name="record in 2 R" uuid="b9c481a8-7e7c-47d3-a427-f89a4938ee68" />
+        </ports>
+      </client>
+    </clients>
+  </jack>
+  <clients>
+    <client name="Capture" uuid="9c8ab1b7-211c-4056-bd91-94d63b3df9f2" naming="app">
+      <ports>
+        <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="output" />
+        <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="output" />
+        <port name="MIDI" uuid="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" type="midi" direction="output" />
+      </ports>
+      <dict>
+        <key name="http://ladish.org/ns/canvas/x">1403.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1283.0</key>
+      </dict>
+    </client>
+    <client name="Playback" uuid="e53018fe-4ae5-4d4c-b4a1-3b8f12e1ae91" naming="app">
+      <ports>
+        <port name="Left" uuid="2776ef6f-39e1-4c5e-8920-3deeb409c3f5" type="audio" direction="input" />
+        <port name="Right" uuid="b371a9a1-18cb-4932-813c-daf278cf2b20" type="audio" direction="input" />
+        <port name="Monitor Left" uuid="f50862dd-3071-4727-be1c-3c9a115d2141" type="audio" direction="input" />
+        <port name="Monitor Right" uuid="35aac0d6-189d-412d-91a1-0a17212cbdb4" type="audio" direction="input" />
+        <port name="MIDI" uuid="04f5fa90-f453-479d-8f3a-2f92cf78c604" type="midi" direction="input" />
+      </ports>
+      <dict>
+        <key name="http://ladish.org/ns/canvas/x">1912.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1249.0</key>
+      </dict>
+    </client>
+    <client name="Rosegarden" uuid="0a40716e-d922-4a80-9dce-3745d71a6c0d" naming="app" app="64c754f8-49ab-4bec-951e-9c8ae0b126be">
+      <ports>
+        <port name="record in 1 L" uuid="8e271595-12e7-4d20-b2a2-91c8e6a9e9c4" type="audio" direction="input" />
+        <port name="record in 1 R" uuid="03a2519e-77df-4bcb-be8b-bfd935416046" type="audio" direction="input" />
+        <port name="master out L" uuid="1e6c45e4-f0bf-4fc3-9138-ab5f0505624e" type="audio" direction="output" />
+        <port name="master out R" uuid="62b0a269-3d3b-4003-9ef3-1d7237972261" type="audio" direction="output" />
+        <port name="record monitor out L" uuid="7f06e36f-1041-4465-98db-8d4b1cbc2b26" type="audio" direction="output" />
+        <port name="record monitor out R" uuid="548c6967-fc1b-4509-af65-62abda7e1ba0" type="audio" direction="output" />
+        <port name="record in" uuid="a0bb55d7-55e6-477b-a182-994ba1b10203" type="midi" direction="input" />
+        <port name="sync out" uuid="d477db67-af4b-4f65-a280-2f0d2dc1a466" type="midi" direction="output" />
+        <port name="external controller" uuid="e67f3b53-ec69-4d14-ae8a-e0cdc4fa1da3" type="midi" direction="output" />
+        <port name="external controller" uuid="785ca609-6c92-4ecd-9f92-ee1da2fa4072" type="midi" direction="input" />
+        <port name="out 1 - General MIDI Device" uuid="ea4fd479-dfb1-4dbc-9024-90cc1d33bb88" type="midi" direction="output" />
+        <port name="record in 2 L" uuid="e80e9404-d9c3-485a-be3d-e3d063965f15" type="audio" direction="input" />
+        <port name="record in 2 R" uuid="b9c481a8-7e7c-47d3-a427-f89a4938ee68" type="audio" direction="input" />
+      </ports>
+    </client>
+  </clients>
+  <connections>
+  </connections>
+  <applications>
+    <application name="Rosegarden" uuid="64c754f8-49ab-4bec-951e-9c8ae0b126be" terminal="false" level="1" autorun="true">rosegarden %27Rosegarden_85123.rg%27</application>
+  </applications>
+</project>

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<!--
+ladish Project.
+-->
+<!-- Fri Nov  6 21:40:22 2015 -->
+<project name="Основной проект" uuid="5985302c-81a5-444f-8b8b-b97d949b0b6a">
+  <room>
+    <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
+    <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
+    <port name="MIDI" uuid="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" type="midi" direction="capture" />
+    <port name="Left" uuid="2776ef6f-39e1-4c5e-8920-3deeb409c3f5" type="audio" direction="playback" />
+    <port name="Right" uuid="b371a9a1-18cb-4932-813c-daf278cf2b20" type="audio" direction="playback" />
+    <port name="Monitor Left" uuid="f50862dd-3071-4727-be1c-3c9a115d2141" type="audio" direction="playback" />
+    <port name="Monitor Right" uuid="35aac0d6-189d-412d-91a1-0a17212cbdb4" type="audio" direction="playback" />
+    <port name="MIDI" uuid="04f5fa90-f453-479d-8f3a-2f92cf78c604" type="midi" direction="playback" />
+  </room>
+  <jack>
+    <clients>
+      <client name="Ardour" uuid="c262047a-997d-46f3-a0a3-e3694f6aa569">
+        <ports>
+          <port name="LTC-in" uuid="521f33c6-d42c-41a9-9638-dd1ca86af2be" />
+          <port name="LTC-out" uuid="c54d2fe6-095d-49f3-a06d-38692c0a8404" />
+          <port name="Click/audio_out 1" uuid="c5c80867-c2ff-4d0d-a30d-de7ed6573429" />
+          <port name="Click/audio_out 2" uuid="a298c52a-3830-41a5-93eb-973008827042" />
+          <port name="Мастер/audio_in 1" uuid="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
+          <port name="Мастер/audio_in 2" uuid="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
+          <port name="Мастер/audio_out 1" uuid="aa095a02-f9c4-445e-a8ed-42cd74b50432" />
+          <port name="Мастер/audio_out 2" uuid="72e1bb84-2a49-425f-98a8-c809d67f1510" />
+          <port name="MIDI control in" uuid="2b937d48-c5ad-4d41-bfa3-1f2b9dd24cfd" />
+          <port name="MIDI control out" uuid="0971cab8-b741-4ca4-9cae-bc578b7173f3" />
+          <port name="MMC in" uuid="33c462f8-5dd9-43e4-8432-be4707a73793" />
+          <port name="MMC out" uuid="da0d8b7f-6331-4e7d-80b5-9e36026060d0" />
+          <port name="Scene in" uuid="52909e78-2381-4c10-a241-e50345a74c2c" />
+          <port name="Scene out" uuid="9906c48c-4a51-4cc4-90f2-eeebb3945ccd" />
+          <port name="MTC in" uuid="5283f415-e9d9-4dde-9c9d-a7d407987965" />
+          <port name="MTC out" uuid="bc13908c-2a1e-4b32-a4cf-bbf6d230031c" />
+          <port name="MIDI Clock in" uuid="80aae568-86b0-4b05-b226-bab03bbafc6d" />
+          <port name="MIDI Clock out" uuid="89d020f8-ea2c-4bf0-a0ce-6d865b85572e" />
+          <port name="auditioner/audio_out 1" uuid="2a7be805-79da-4e0c-93df-4822cd7e7289" />
+          <port name="auditioner/audio_out 2" uuid="598b7e19-507c-4307-af1d-88eceb5c843f" />
+          <port name="auditioner/midi_out 1" uuid="8bd2c335-20e9-4707-9282-6dd7719d48a2" />
+          <port name="Ударные/audio_in 1" uuid="aa10ee00-8767-499c-bd7b-aea534341299" />
+          <port name="Ударные/audio_in 2" uuid="d076e835-b0b9-4eb5-a291-76bd9b337248" />
+          <port name="Ударные/audio_out 1" uuid="2fb2089f-de9d-401c-88c6-22d1d328efc5" />
+          <port name="Ударные/audio_out 2" uuid="cca3d323-58f4-425f-aabb-8117716d60fb" />
+          <port name="Басы/audio_in 1" uuid="7edfcb4b-ad7a-41ef-87de-9698ae3f5659" />
+          <port name="Басы/audio_in 2" uuid="267b53cd-2c9a-441a-9945-aea5e4aef68f" />
+          <port name="Басы/audio_out 1" uuid="dc3fa4bc-d957-4b7d-9247-904e9babf865" />
+          <port name="Басы/audio_out 2" uuid="4103bda1-b03f-4b82-a6c4-a5c5370fa8a5" />
+          <port name="Лиды/audio_in 1" uuid="12c16dd6-931e-4059-933c-a2efd62e9abe" />
+          <port name="Лиды/audio_in 2" uuid="13516e1a-c351-4616-ad30-4e9a7792d647" />
+          <port name="Лиды/audio_out 1" uuid="6fbbad43-8090-4aa8-b467-dd447407cb25" />
+          <port name="Лиды/audio_out 2" uuid="008bf615-c735-4cf9-ae62-ff86473639fd" />
+          <port name="Аккомпанемент/audio_in 1" uuid="57dd38a1-ee46-4ec8-9e84-dd1b05ab0464" />
+          <port name="Аккомпанемент/audio_in 2" uuid="746ed1e2-e511-488c-9f7d-7ae8149e5619" />
+          <port name="Аккомпанемент/audio_out 1" uuid="d9db32d2-8b70-459c-980d-e22473a803b0" />
+          <port name="Аккомпанемент/audio_out 2" uuid="4460415f-38f8-4d68-97e7-ee4302e23023" />
+          <port name="Подклады/audio_in 1" uuid="b5692004-5140-43f5-afff-c3a0f356e74d" />
+          <port name="Подклады/audio_in 2" uuid="370538e9-3fa9-43f3-b976-173d3bda1765" />
+          <port name="Подклады/audio_out 1" uuid="8ba061ae-0551-4b28-b59f-e03cf1c08ffa" />
+          <port name="Подклады/audio_out 2" uuid="93ef61b6-b232-4f3a-b4d3-bac6659c5324" />
+          <port name="Эффекты/audio_in 1" uuid="011ece62-7c15-4ae6-a5e0-8fc60ce8317d" />
+          <port name="Эффекты/audio_in 2" uuid="f5f293dc-3b54-4668-80f1-f9f498cc69de" />
+          <port name="Эффекты/audio_out 1" uuid="298fe319-47ee-4df6-83e4-948c18af391e" />
+          <port name="Эффекты/audio_out 2" uuid="1d11f74b-ee36-493a-a300-04395528209f" />
+          <port name="Бочки/midi_in 1" uuid="e76fb1d3-8806-42d7-9437-6afa019bed25" />
+          <port name="Бочки/midi_out 1" uuid="c9452975-d758-44f0-8398-f3470c947064" />
+          <port name="Снейры/midi_in 1" uuid="b159d1be-9dc3-4cfc-9119-c8e1aafedbfb" />
+          <port name="Снейры/midi_out 1" uuid="1c1392f7-e6ff-4fb4-9586-17afe25aef9f" />
+          <port name="Хай-хэты/midi_in 1" uuid="6127f8e3-2fbc-4126-992d-ebe004faebd5" />
+          <port name="Хай-хэты/midi_out 1" uuid="1743c8a8-93f6-4e1c-85aa-a5d8073735d2" />
+          <port name="Тарелки/midi_in 1" uuid="c62b21bb-997b-4ddb-b8c9-ffb9ba97b561" />
+          <port name="Тарелки/midi_out 1" uuid="ec112d52-ae7d-457b-a083-328232b89c3e" />
+          <port name="Бочки/audio_out 1" uuid="5e4f6d2f-7cfa-4b1e-920c-c318a199e3ff" />
+          <port name="Бочки/audio_out 2" uuid="7928589c-f5cb-49af-bb96-084e3b731fb4" />
+          <port name="Снейры/audio_out 1" uuid="ad312423-5973-46a4-800d-d5c259c827d8" />
+          <port name="Снейры/audio_out 2" uuid="306ad938-56eb-4af4-b6ce-42adb5e6d025" />
+          <port name="Хай-хэты/audio_out 1" uuid="e9da4fb6-4029-4607-84b7-d641849ac2c0" />
+          <port name="Хай-хэты/audio_out 2" uuid="8cf047cf-76f7-45b3-ba24-0411addec0d5" />
+          <port name="Тарелки/audio_out 1" uuid="cfb991cf-d576-494f-948d-de74060f5a11" />
+          <port name="Тарелки/audio_out 2" uuid="2c599e7d-52da-4b73-8604-a8eee426146e" />
+          <port name="Ударные MIDI/midi_in 1" uuid="236130c4-afde-4b0f-a60b-335b7922757b" />
+          <port name="Ударные MIDI/midi_out 1" uuid="a3645379-1439-48f1-84bf-132fd3500ab5" />
+          <port name="Бас MIDI/midi_in 1" uuid="fad59149-42fe-4714-849d-0413490f5d2a" />
+          <port name="Бас MIDI/midi_out 1" uuid="4daac50b-129f-451c-9895-b13a53ae6ca8" />
+          <port name="Бас MIDI/audio_out 1" uuid="fa522321-b5c8-4b7f-a830-7e9ec609706c" />
+          <port name="Бас MIDI/audio_out 2" uuid="519eb29c-4478-4b16-80d8-d770e3fe7b84" />
+        </ports>
+      </client>
+    </clients>
+  </jack>
+  <clients>
+    <client name="Capture" uuid="9c8ab1b7-211c-4056-bd91-94d63b3df9f2" naming="app">
+      <ports>
+        <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="output" />
+        <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="output" />
+        <port name="MIDI" uuid="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" type="midi" direction="output" />
+      </ports>
+      <dict>
+        <key name="http://ladish.org/ns/canvas/x">1358.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1590.0</key>
+      </dict>
+    </client>
+    <client name="Playback" uuid="e53018fe-4ae5-4d4c-b4a1-3b8f12e1ae91" naming="app">
+      <ports>
+        <port name="Left" uuid="2776ef6f-39e1-4c5e-8920-3deeb409c3f5" type="audio" direction="input" />
+        <port name="Right" uuid="b371a9a1-18cb-4932-813c-daf278cf2b20" type="audio" direction="input" />
+        <port name="Monitor Left" uuid="f50862dd-3071-4727-be1c-3c9a115d2141" type="audio" direction="input" />
+        <port name="Monitor Right" uuid="35aac0d6-189d-412d-91a1-0a17212cbdb4" type="audio" direction="input" />
+        <port name="MIDI" uuid="04f5fa90-f453-479d-8f3a-2f92cf78c604" type="midi" direction="input" />
+      </ports>
+      <dict>
+        <key name="http://ladish.org/ns/canvas/x">1989.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1422.0</key>
+      </dict>
+    </client>
+    <client name="Ardour" uuid="aa4ffd79-b47c-45ac-82f5-776e0deac16f" naming="app" app="bb87d686-c6dd-4f98-a83f-66fa18b7e2ee">
+      <ports>
+        <port name="LTC-in" uuid="521f33c6-d42c-41a9-9638-dd1ca86af2be" type="audio" direction="input" />
+        <port name="LTC-out" uuid="c54d2fe6-095d-49f3-a06d-38692c0a8404" type="audio" direction="output" />
+        <port name="Click/audio_out 1" uuid="c5c80867-c2ff-4d0d-a30d-de7ed6573429" type="audio" direction="output" />
+        <port name="Click/audio_out 2" uuid="a298c52a-3830-41a5-93eb-973008827042" type="audio" direction="output" />
+        <port name="Мастер/audio_in 1" uuid="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" type="audio" direction="input" />
+        <port name="Мастер/audio_in 2" uuid="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" type="audio" direction="input" />
+        <port name="Мастер/audio_out 1" uuid="aa095a02-f9c4-445e-a8ed-42cd74b50432" type="audio" direction="output" />
+        <port name="Мастер/audio_out 2" uuid="72e1bb84-2a49-425f-98a8-c809d67f1510" type="audio" direction="output" />
+        <port name="MIDI control in" uuid="2b937d48-c5ad-4d41-bfa3-1f2b9dd24cfd" type="midi" direction="input" />
+        <port name="MIDI control out" uuid="0971cab8-b741-4ca4-9cae-bc578b7173f3" type="midi" direction="output" />
+        <port name="MMC in" uuid="33c462f8-5dd9-43e4-8432-be4707a73793" type="midi" direction="input" />
+        <port name="MMC out" uuid="da0d8b7f-6331-4e7d-80b5-9e36026060d0" type="midi" direction="output" />
+        <port name="Scene in" uuid="52909e78-2381-4c10-a241-e50345a74c2c" type="midi" direction="input" />
+        <port name="Scene out" uuid="9906c48c-4a51-4cc4-90f2-eeebb3945ccd" type="midi" direction="output" />
+        <port name="MTC in" uuid="5283f415-e9d9-4dde-9c9d-a7d407987965" type="midi" direction="input" />
+        <port name="MTC out" uuid="bc13908c-2a1e-4b32-a4cf-bbf6d230031c" type="midi" direction="output" />
+        <port name="MIDI Clock in" uuid="80aae568-86b0-4b05-b226-bab03bbafc6d" type="midi" direction="input" />
+        <port name="MIDI Clock out" uuid="89d020f8-ea2c-4bf0-a0ce-6d865b85572e" type="midi" direction="output" />
+        <port name="auditioner/audio_out 1" uuid="2a7be805-79da-4e0c-93df-4822cd7e7289" type="audio" direction="output" />
+        <port name="auditioner/audio_out 2" uuid="598b7e19-507c-4307-af1d-88eceb5c843f" type="audio" direction="output" />
+        <port name="auditioner/midi_out 1" uuid="8bd2c335-20e9-4707-9282-6dd7719d48a2" type="midi" direction="output" />
+        <port name="Ударные/audio_in 1" uuid="aa10ee00-8767-499c-bd7b-aea534341299" type="audio" direction="input" />
+        <port name="Ударные/audio_in 2" uuid="d076e835-b0b9-4eb5-a291-76bd9b337248" type="audio" direction="input" />
+        <port name="Ударные/audio_out 1" uuid="2fb2089f-de9d-401c-88c6-22d1d328efc5" type="audio" direction="output" />
+        <port name="Ударные/audio_out 2" uuid="cca3d323-58f4-425f-aabb-8117716d60fb" type="audio" direction="output" />
+        <port name="Басы/audio_in 1" uuid="7edfcb4b-ad7a-41ef-87de-9698ae3f5659" type="audio" direction="input" />
+        <port name="Басы/audio_in 2" uuid="267b53cd-2c9a-441a-9945-aea5e4aef68f" type="audio" direction="input" />
+        <port name="Басы/audio_out 1" uuid="dc3fa4bc-d957-4b7d-9247-904e9babf865" type="audio" direction="output" />
+        <port name="Басы/audio_out 2" uuid="4103bda1-b03f-4b82-a6c4-a5c5370fa8a5" type="audio" direction="output" />
+        <port name="Лиды/audio_in 1" uuid="12c16dd6-931e-4059-933c-a2efd62e9abe" type="audio" direction="input" />
+        <port name="Лиды/audio_in 2" uuid="13516e1a-c351-4616-ad30-4e9a7792d647" type="audio" direction="input" />
+        <port name="Лиды/audio_out 1" uuid="6fbbad43-8090-4aa8-b467-dd447407cb25" type="audio" direction="output" />
+        <port name="Лиды/audio_out 2" uuid="008bf615-c735-4cf9-ae62-ff86473639fd" type="audio" direction="output" />
+        <port name="Аккомпанемент/audio_in 1" uuid="57dd38a1-ee46-4ec8-9e84-dd1b05ab0464" type="audio" direction="input" />
+        <port name="Аккомпанемент/audio_in 2" uuid="746ed1e2-e511-488c-9f7d-7ae8149e5619" type="audio" direction="input" />
+        <port name="Аккомпанемент/audio_out 1" uuid="d9db32d2-8b70-459c-980d-e22473a803b0" type="audio" direction="output" />
+        <port name="Аккомпанемент/audio_out 2" uuid="4460415f-38f8-4d68-97e7-ee4302e23023" type="audio" direction="output" />
+        <port name="Подклады/audio_in 1" uuid="b5692004-5140-43f5-afff-c3a0f356e74d" type="audio" direction="input" />
+        <port name="Подклады/audio_in 2" uuid="370538e9-3fa9-43f3-b976-173d3bda1765" type="audio" direction="input" />
+        <port name="Подклады/audio_out 1" uuid="8ba061ae-0551-4b28-b59f-e03cf1c08ffa" type="audio" direction="output" />
+        <port name="Подклады/audio_out 2" uuid="93ef61b6-b232-4f3a-b4d3-bac6659c5324" type="audio" direction="output" />
+        <port name="Эффекты/audio_in 1" uuid="011ece62-7c15-4ae6-a5e0-8fc60ce8317d" type="audio" direction="input" />
+        <port name="Эффекты/audio_in 2" uuid="f5f293dc-3b54-4668-80f1-f9f498cc69de" type="audio" direction="input" />
+        <port name="Эффекты/audio_out 1" uuid="298fe319-47ee-4df6-83e4-948c18af391e" type="audio" direction="output" />
+        <port name="Эффекты/audio_out 2" uuid="1d11f74b-ee36-493a-a300-04395528209f" type="audio" direction="output" />
+        <port name="Бочки/midi_in 1" uuid="e76fb1d3-8806-42d7-9437-6afa019bed25" type="midi" direction="input" />
+        <port name="Бочки/midi_out 1" uuid="c9452975-d758-44f0-8398-f3470c947064" type="midi" direction="output" />
+        <port name="Снейры/midi_in 1" uuid="b159d1be-9dc3-4cfc-9119-c8e1aafedbfb" type="midi" direction="input" />
+        <port name="Снейры/midi_out 1" uuid="1c1392f7-e6ff-4fb4-9586-17afe25aef9f" type="midi" direction="output" />
+        <port name="Хай-хэты/midi_in 1" uuid="6127f8e3-2fbc-4126-992d-ebe004faebd5" type="midi" direction="input" />
+        <port name="Хай-хэты/midi_out 1" uuid="1743c8a8-93f6-4e1c-85aa-a5d8073735d2" type="midi" direction="output" />
+        <port name="Тарелки/midi_in 1" uuid="c62b21bb-997b-4ddb-b8c9-ffb9ba97b561" type="midi" direction="input" />
+        <port name="Тарелки/midi_out 1" uuid="ec112d52-ae7d-457b-a083-328232b89c3e" type="midi" direction="output" />
+        <port name="Бочки/audio_out 1" uuid="5e4f6d2f-7cfa-4b1e-920c-c318a199e3ff" type="audio" direction="output" />
+        <port name="Бочки/audio_out 2" uuid="7928589c-f5cb-49af-bb96-084e3b731fb4" type="audio" direction="output" />
+        <port name="Снейры/audio_out 1" uuid="ad312423-5973-46a4-800d-d5c259c827d8" type="audio" direction="output" />
+        <port name="Снейры/audio_out 2" uuid="306ad938-56eb-4af4-b6ce-42adb5e6d025" type="audio" direction="output" />
+        <port name="Хай-хэты/audio_out 1" uuid="e9da4fb6-4029-4607-84b7-d641849ac2c0" type="audio" direction="output" />
+        <port name="Хай-хэты/audio_out 2" uuid="8cf047cf-76f7-45b3-ba24-0411addec0d5" type="audio" direction="output" />
+        <port name="Тарелки/audio_out 1" uuid="cfb991cf-d576-494f-948d-de74060f5a11" type="audio" direction="output" />
+        <port name="Тарелки/audio_out 2" uuid="2c599e7d-52da-4b73-8604-a8eee426146e" type="audio" direction="output" />
+        <port name="Ударные MIDI/midi_in 1" uuid="236130c4-afde-4b0f-a60b-335b7922757b" type="midi" direction="input" />
+        <port name="Ударные MIDI/midi_out 1" uuid="a3645379-1439-48f1-84bf-132fd3500ab5" type="midi" direction="output" />
+        <port name="Бас MIDI/midi_in 1" uuid="fad59149-42fe-4714-849d-0413490f5d2a" type="midi" direction="input" />
+        <port name="Бас MIDI/midi_out 1" uuid="4daac50b-129f-451c-9895-b13a53ae6ca8" type="midi" direction="output" />
+        <port name="Бас MIDI/audio_out 1" uuid="fa522321-b5c8-4b7f-a830-7e9ec609706c" type="audio" direction="output" />
+        <port name="Бас MIDI/audio_out 2" uuid="519eb29c-4478-4b16-80d8-d770e3fe7b84" type="audio" direction="output" />
+      </ports>
+      <dict>
+        <key name="http://ladish.org/ns/canvas/x">1550.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1200.0</key>
+      </dict>
+    </client>
+  </clients>
+  <connections>
+    <connection port1="aa095a02-f9c4-445e-a8ed-42cd74b50432" port2="2776ef6f-39e1-4c5e-8920-3deeb409c3f5" />
+    <connection port1="72e1bb84-2a49-425f-98a8-c809d67f1510" port2="b371a9a1-18cb-4932-813c-daf278cf2b20" />
+    <connection port1="a298c52a-3830-41a5-93eb-973008827042" port2="35aac0d6-189d-412d-91a1-0a17212cbdb4" />
+    <connection port1="c5c80867-c2ff-4d0d-a30d-de7ed6573429" port2="f50862dd-3071-4727-be1c-3c9a115d2141" />
+    <connection port1="2a7be805-79da-4e0c-93df-4822cd7e7289" port2="f50862dd-3071-4727-be1c-3c9a115d2141" />
+    <connection port1="598b7e19-507c-4307-af1d-88eceb5c843f" port2="35aac0d6-189d-412d-91a1-0a17212cbdb4" />
+    <connection port1="0971cab8-b741-4ca4-9cae-bc578b7173f3" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
+    <connection port1="da0d8b7f-6331-4e7d-80b5-9e36026060d0" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
+    <connection port1="bc13908c-2a1e-4b32-a4cf-bbf6d230031c" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
+    <connection port1="89d020f8-ea2c-4bf0-a0ce-6d865b85572e" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
+    <connection port1="9906c48c-4a51-4cc4-90f2-eeebb3945ccd" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
+    <connection port1="8bd2c335-20e9-4707-9282-6dd7719d48a2" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
+    <connection port1="2fb2089f-de9d-401c-88c6-22d1d328efc5" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
+    <connection port1="cca3d323-58f4-425f-aabb-8117716d60fb" port2="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
+    <connection port1="dc3fa4bc-d957-4b7d-9247-904e9babf865" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
+    <connection port1="4103bda1-b03f-4b82-a6c4-a5c5370fa8a5" port2="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
+    <connection port1="6fbbad43-8090-4aa8-b467-dd447407cb25" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
+    <connection port1="008bf615-c735-4cf9-ae62-ff86473639fd" port2="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
+    <connection port1="d9db32d2-8b70-459c-980d-e22473a803b0" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
+    <connection port1="4460415f-38f8-4d68-97e7-ee4302e23023" port2="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
+    <connection port1="8ba061ae-0551-4b28-b59f-e03cf1c08ffa" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
+    <connection port1="93ef61b6-b232-4f3a-b4d3-bac6659c5324" port2="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
+    <connection port1="298fe319-47ee-4df6-83e4-948c18af391e" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
+    <connection port1="1d11f74b-ee36-493a-a300-04395528209f" port2="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
+    <connection port1="5e4f6d2f-7cfa-4b1e-920c-c318a199e3ff" port2="aa10ee00-8767-499c-bd7b-aea534341299" />
+    <connection port1="7928589c-f5cb-49af-bb96-084e3b731fb4" port2="d076e835-b0b9-4eb5-a291-76bd9b337248" />
+    <connection port1="ad312423-5973-46a4-800d-d5c259c827d8" port2="aa10ee00-8767-499c-bd7b-aea534341299" />
+    <connection port1="306ad938-56eb-4af4-b6ce-42adb5e6d025" port2="d076e835-b0b9-4eb5-a291-76bd9b337248" />
+    <connection port1="e9da4fb6-4029-4607-84b7-d641849ac2c0" port2="aa10ee00-8767-499c-bd7b-aea534341299" />
+    <connection port1="8cf047cf-76f7-45b3-ba24-0411addec0d5" port2="d076e835-b0b9-4eb5-a291-76bd9b337248" />
+    <connection port1="cfb991cf-d576-494f-948d-de74060f5a11" port2="aa10ee00-8767-499c-bd7b-aea534341299" />
+    <connection port1="2c599e7d-52da-4b73-8604-a8eee426146e" port2="d076e835-b0b9-4eb5-a291-76bd9b337248" />
+    <connection port1="a3645379-1439-48f1-84bf-132fd3500ab5" port2="e76fb1d3-8806-42d7-9437-6afa019bed25" />
+    <connection port1="a3645379-1439-48f1-84bf-132fd3500ab5" port2="b159d1be-9dc3-4cfc-9119-c8e1aafedbfb" />
+    <connection port1="a3645379-1439-48f1-84bf-132fd3500ab5" port2="6127f8e3-2fbc-4126-992d-ebe004faebd5" />
+    <connection port1="a3645379-1439-48f1-84bf-132fd3500ab5" port2="c62b21bb-997b-4ddb-b8c9-ffb9ba97b561" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="2b937d48-c5ad-4d41-bfa3-1f2b9dd24cfd" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="33c462f8-5dd9-43e4-8432-be4707a73793" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="52909e78-2381-4c10-a241-e50345a74c2c" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="5283f415-e9d9-4dde-9c9d-a7d407987965" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="80aae568-86b0-4b05-b226-bab03bbafc6d" />
+    <connection port1="fa522321-b5c8-4b7f-a830-7e9ec609706c" port2="7edfcb4b-ad7a-41ef-87de-9698ae3f5659" />
+    <connection port1="519eb29c-4478-4b16-80d8-d770e3fe7b84" port2="267b53cd-2c9a-441a-9945-aea5e4aef68f" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="fad59149-42fe-4714-849d-0413490f5d2a" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="236130c4-afde-4b0f-a60b-335b7922757b" />
+  </connections>
+  <applications>
+    <application name="Ardour" uuid="bb87d686-c6dd-4f98-a83f-66fa18b7e2ee" terminal="false" level="0" autorun="true">ardour4 Composition</application>
+  </applications>
+</project>
