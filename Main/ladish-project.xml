@@ -2,8 +2,8 @@
 <!--
 ladish Project.
 -->
-<!-- Sun Nov  8 02:26:46 2015 -->
-<project name="Основной проект" uuid="f1cf8f4d-2036-4acd-8537-c3960dfa8a8d">
+<!-- Sun Nov  8 04:45:39 2015 -->
+<project name="Основной проект" uuid="06dde364-5620-4931-954b-a7844623a0b4">
   <room>
     <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
     <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
@@ -83,8 +83,8 @@ ladish Project.
           <port name="Бас MIDI/midi_out 1" uuid="4daac50b-129f-451c-9895-b13a53ae6ca8" />
           <port name="Бас MIDI/audio_out 1" uuid="fa522321-b5c8-4b7f-a830-7e9ec609706c" />
           <port name="Бас MIDI/audio_out 2" uuid="519eb29c-4478-4b16-80d8-d770e3fe7b84" />
-          <port name="LTC-in" uuid="a53a24bf-9d1e-4aed-a689-345a9ec9de8f" />
-          <port name="LTC-out" uuid="aa5e9eb5-2e2c-49fb-805b-477c208f1763" />
+          <port name="LTC-in" uuid="7e44fb11-c387-4134-90c7-ffe1f8ad662a" />
+          <port name="LTC-out" uuid="7279265b-d90b-42ef-9fc0-9acf59361e5e" />
         </ports>
       </client>
     </clients>
@@ -97,8 +97,8 @@ ladish Project.
         <port name="MIDI" uuid="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" type="midi" direction="output" />
       </ports>
       <dict>
-        <key name="http://ladish.org/ns/canvas/x">1358.0</key>
-        <key name="http://ladish.org/ns/canvas/y">1590.0</key>
+        <key name="http://ladish.org/ns/canvas/x">1435.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1786.0</key>
       </dict>
     </client>
     <client name="Playback" uuid="e53018fe-4ae5-4d4c-b4a1-3b8f12e1ae91" naming="app">
@@ -181,12 +181,12 @@ ladish Project.
         <port name="Бас MIDI/midi_out 1" uuid="4daac50b-129f-451c-9895-b13a53ae6ca8" type="midi" direction="output" />
         <port name="Бас MIDI/audio_out 1" uuid="fa522321-b5c8-4b7f-a830-7e9ec609706c" type="audio" direction="output" />
         <port name="Бас MIDI/audio_out 2" uuid="519eb29c-4478-4b16-80d8-d770e3fe7b84" type="audio" direction="output" />
-        <port name="LTC-in" uuid="a53a24bf-9d1e-4aed-a689-345a9ec9de8f" type="audio" direction="input" />
-        <port name="LTC-out" uuid="aa5e9eb5-2e2c-49fb-805b-477c208f1763" type="audio" direction="output" />
+        <port name="LTC-in" uuid="7e44fb11-c387-4134-90c7-ffe1f8ad662a" type="audio" direction="input" />
+        <port name="LTC-out" uuid="7279265b-d90b-42ef-9fc0-9acf59361e5e" type="audio" direction="output" />
       </ports>
       <dict>
-        <key name="http://ladish.org/ns/canvas/x">1550.0</key>
-        <key name="http://ladish.org/ns/canvas/y">1200.0</key>
+        <key name="http://ladish.org/ns/canvas/x">1597.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1370.0</key>
       </dict>
     </client>
   </clients>

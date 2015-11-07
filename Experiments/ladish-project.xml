@@ -2,8 +2,8 @@
 <!--
 ladish Project.
 -->
-<!-- Sun Nov  8 02:26:09 2015 -->
-<project name="Дополнительный проект" uuid="5c66e1e3-41cc-4086-8507-29a9a517ad26">
+<!-- Sun Nov  8 04:44:56 2015 -->
+<project name="Дополнительный проект" uuid="00dc27bc-6fcc-4b54-a2f9-5b609fc1817e">
   <room>
     <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
     <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
@@ -80,6 +80,10 @@ ladish Project.
         <port name="record in 2 L" uuid="e80e9404-d9c3-485a-be3d-e3d063965f15" type="audio" direction="input" />
         <port name="record in 2 R" uuid="b9c481a8-7e7c-47d3-a427-f89a4938ee68" type="audio" direction="input" />
       </ports>
+      <dict>
+        <key name="http://ladish.org/ns/canvas/x">1552.0</key>
+        <key name="http://ladish.org/ns/canvas/y">1247.0</key>
+      </dict>
     </client>
   </clients>
   <connections>
