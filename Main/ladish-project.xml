@@ -2,8 +2,8 @@
 <!--
 ladish Project.
 -->
-<!-- Fri Nov  6 21:40:22 2015 -->
-<project name="Основной проект" uuid="5985302c-81a5-444f-8b8b-b97d949b0b6a">
+<!-- Sun Nov  8 02:26:46 2015 -->
+<project name="Основной проект" uuid="f1cf8f4d-2036-4acd-8537-c3960dfa8a8d">
   <room>
     <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
     <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
@@ -18,8 +18,6 @@ ladish Project.
     <clients>
       <client name="Ardour" uuid="c262047a-997d-46f3-a0a3-e3694f6aa569">
         <ports>
-          <port name="LTC-in" uuid="521f33c6-d42c-41a9-9638-dd1ca86af2be" />
-          <port name="LTC-out" uuid="c54d2fe6-095d-49f3-a06d-38692c0a8404" />
           <port name="Click/audio_out 1" uuid="c5c80867-c2ff-4d0d-a30d-de7ed6573429" />
           <port name="Click/audio_out 2" uuid="a298c52a-3830-41a5-93eb-973008827042" />
           <port name="Мастер/audio_in 1" uuid="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
@@ -85,6 +83,8 @@ ladish Project.
           <port name="Бас MIDI/midi_out 1" uuid="4daac50b-129f-451c-9895-b13a53ae6ca8" />
           <port name="Бас MIDI/audio_out 1" uuid="fa522321-b5c8-4b7f-a830-7e9ec609706c" />
           <port name="Бас MIDI/audio_out 2" uuid="519eb29c-4478-4b16-80d8-d770e3fe7b84" />
+          <port name="LTC-in" uuid="a53a24bf-9d1e-4aed-a689-345a9ec9de8f" />
+          <port name="LTC-out" uuid="aa5e9eb5-2e2c-49fb-805b-477c208f1763" />
         </ports>
       </client>
     </clients>
@@ -116,8 +116,6 @@ ladish Project.
     </client>
     <client name="Ardour" uuid="aa4ffd79-b47c-45ac-82f5-776e0deac16f" naming="app" app="bb87d686-c6dd-4f98-a83f-66fa18b7e2ee">
       <ports>
-        <port name="LTC-in" uuid="521f33c6-d42c-41a9-9638-dd1ca86af2be" type="audio" direction="input" />
-        <port name="LTC-out" uuid="c54d2fe6-095d-49f3-a06d-38692c0a8404" type="audio" direction="output" />
         <port name="Click/audio_out 1" uuid="c5c80867-c2ff-4d0d-a30d-de7ed6573429" type="audio" direction="output" />
         <port name="Click/audio_out 2" uuid="a298c52a-3830-41a5-93eb-973008827042" type="audio" direction="output" />
         <port name="Мастер/audio_in 1" uuid="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" type="audio" direction="input" />
@@ -183,6 +181,8 @@ ladish Project.
         <port name="Бас MIDI/midi_out 1" uuid="4daac50b-129f-451c-9895-b13a53ae6ca8" type="midi" direction="output" />
         <port name="Бас MIDI/audio_out 1" uuid="fa522321-b5c8-4b7f-a830-7e9ec609706c" type="audio" direction="output" />
         <port name="Бас MIDI/audio_out 2" uuid="519eb29c-4478-4b16-80d8-d770e3fe7b84" type="audio" direction="output" />
+        <port name="LTC-in" uuid="a53a24bf-9d1e-4aed-a689-345a9ec9de8f" type="audio" direction="input" />
+        <port name="LTC-out" uuid="aa5e9eb5-2e2c-49fb-805b-477c208f1763" type="audio" direction="output" />
       </ports>
       <dict>
         <key name="http://ladish.org/ns/canvas/x">1550.0</key>
@@ -197,12 +197,6 @@ ladish Project.
     <connection port1="c5c80867-c2ff-4d0d-a30d-de7ed6573429" port2="f50862dd-3071-4727-be1c-3c9a115d2141" />
     <connection port1="2a7be805-79da-4e0c-93df-4822cd7e7289" port2="f50862dd-3071-4727-be1c-3c9a115d2141" />
     <connection port1="598b7e19-507c-4307-af1d-88eceb5c843f" port2="35aac0d6-189d-412d-91a1-0a17212cbdb4" />
-    <connection port1="0971cab8-b741-4ca4-9cae-bc578b7173f3" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
-    <connection port1="da0d8b7f-6331-4e7d-80b5-9e36026060d0" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
-    <connection port1="bc13908c-2a1e-4b32-a4cf-bbf6d230031c" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
-    <connection port1="89d020f8-ea2c-4bf0-a0ce-6d865b85572e" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
-    <connection port1="9906c48c-4a51-4cc4-90f2-eeebb3945ccd" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
-    <connection port1="8bd2c335-20e9-4707-9282-6dd7719d48a2" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
     <connection port1="2fb2089f-de9d-401c-88c6-22d1d328efc5" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
     <connection port1="cca3d323-58f4-425f-aabb-8117716d60fb" port2="b20ba30e-c0cb-4a0f-a962-f8f1078b4ad1" />
     <connection port1="dc3fa4bc-d957-4b7d-9247-904e9babf865" port2="ad0e8fdc-ac36-4472-a6a0-5ead7cfd7dcf" />
@@ -227,15 +221,10 @@ ladish Project.
     <connection port1="a3645379-1439-48f1-84bf-132fd3500ab5" port2="b159d1be-9dc3-4cfc-9119-c8e1aafedbfb" />
     <connection port1="a3645379-1439-48f1-84bf-132fd3500ab5" port2="6127f8e3-2fbc-4126-992d-ebe004faebd5" />
     <connection port1="a3645379-1439-48f1-84bf-132fd3500ab5" port2="c62b21bb-997b-4ddb-b8c9-ffb9ba97b561" />
-    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="2b937d48-c5ad-4d41-bfa3-1f2b9dd24cfd" />
-    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="33c462f8-5dd9-43e4-8432-be4707a73793" />
-    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="52909e78-2381-4c10-a241-e50345a74c2c" />
-    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="5283f415-e9d9-4dde-9c9d-a7d407987965" />
-    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="80aae568-86b0-4b05-b226-bab03bbafc6d" />
     <connection port1="fa522321-b5c8-4b7f-a830-7e9ec609706c" port2="7edfcb4b-ad7a-41ef-87de-9698ae3f5659" />
     <connection port1="519eb29c-4478-4b16-80d8-d770e3fe7b84" port2="267b53cd-2c9a-441a-9945-aea5e4aef68f" />
-    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="fad59149-42fe-4714-849d-0413490f5d2a" />
     <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="236130c4-afde-4b0f-a60b-335b7922757b" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="fad59149-42fe-4714-849d-0413490f5d2a" />
   </connections>
   <applications>
     <application name="Ardour" uuid="bb87d686-c6dd-4f98-a83f-66fa18b7e2ee" terminal="false" level="0" autorun="true">ardour4 Composition</application>

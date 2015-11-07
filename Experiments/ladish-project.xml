@@ -2,8 +2,8 @@
 <!--
 ladish Project.
 -->
-<!-- Fri Nov  6 21:40:34 2015 -->
-<project name="Дополнительный проект" uuid="b3263e1d-8e7e-4a1b-a94c-2c7995c4b0cc">
+<!-- Sun Nov  8 02:26:09 2015 -->
+<project name="Дополнительный проект" uuid="5c66e1e3-41cc-4086-8507-29a9a517ad26">
   <room>
     <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
     <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
@@ -83,6 +83,8 @@ ladish Project.
     </client>
   </clients>
   <connections>
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="a0bb55d7-55e6-477b-a182-994ba1b10203" />
+    <connection port1="ea4fd479-dfb1-4dbc-9024-90cc1d33bb88" port2="04f5fa90-f453-479d-8f3a-2f92cf78c604" />
   </connections>
   <applications>
     <application name="Rosegarden" uuid="64c754f8-49ab-4bec-951e-9c8ae0b126be" terminal="false" level="1" autorun="true">rosegarden %27Rosegarden_85123.rg%27</application>
