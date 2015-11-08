@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
-  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="2048" snap-to="SnapToBar" snap-mode="SnapNormal" internal-snap-to="SnapToBeat" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBar" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="96000" left-frame="0" y-origin="0,000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="240000">
+  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="2048" snap-to="SnapToBeat" snap-mode="SnapNormal" internal-snap-to="SnapToBeat" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBar" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="1052672" left-frame="92160" y-origin="0,000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseContent" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="240000">
     <geometry x-size="1600" y-size="840" x-pos="-4" y-pos="-1" edit-horizontal-pane-pos="1189" notebook-shrunk="0" edit-vertical-pane-pos="642"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <Region id="26599"/>
-      <Region id="26602"/>
-      <Region id="26605"/>
-      <Region id="26608"/>
-      <Region id="26611"/>
-      <Region id="26614"/>
-      <Region id="26617"/>
-      <Region id="26620"/>
+      <RouteView id="1767"/>
+      <RouteView id="26442"/>
+      <RouteView id="1929"/>
       <Marker id="23678" start="no"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
   </Editor>
-  <Mixer narrow-strips="no" show-mixer="no" maximised="no"/>
+  <Mixer narrow-strips="no" show-mixer="yes" maximised="no">
+    <geometry x-size="1336" y-size="765" x-pos="44" y-pos="43" x-off="0" y-off="0" mixer-rhs-pane1-pos="255" mixer-list-hpane-pos="75"/>
+  </Mixer>
   <Meterbridge show-meterbridge="no">
     <geometry x-size="600" y-size="400" x-pos="1" y-pos="1"/>
   </Meterbridge>

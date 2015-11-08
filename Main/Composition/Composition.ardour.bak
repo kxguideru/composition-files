@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="26584" event-counter="47775">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="26630" event-counter="48314">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -66,6 +66,7 @@
     <Source name="Ударные MIDI-2.mid" type="midi" flags="Writable,CanRename" id="22715" captured-for="Ударные MIDI" origin=""/>
     <Source name="Бас MIDI-2.mid" type="midi" flags="Writable,CanRename" id="22970" captured-for="Бас MIDI" origin=""/>
     <Source name="Случ. уд. MIDI-1.mid" type="midi" flags="Writable,CanRename" id="26361" origin=""/>
+    <Source name="Случ. уд. MIDI-3.mid" type="midi" flags="Writable,CanRename" id="26588" origin=""/>
   </Sources>
   <Regions>
     <Region name="Ударные MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="677888" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28.2453333333" id="23672" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="22715" master-source-0="22715"/>
@@ -91,7 +92,7 @@
     <Region name="Бас MIDI-2.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="1056000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="9" start-beats="4" length-beats="8" id="26402" type="midi" first-edit="nothing" bbt-position="12|1|0" source-0="22970" master-source-0="22970"/>
   </Regions>
   <Locations>
-    <Location id="23678" name="Сесссия" start="0" end="960000" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="23678" name="Сесссия" start="0" end="1728000" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <Routes>
@@ -1715,7 +1716,7 @@
       <Controllable name="recenable" id="1795" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Ударные MIDI.1" name="Ударные MIDI" id="1797" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="26442" name="Случ. уд. MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="12" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="26442" name="Случ. уд. MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="12" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Percussive" step-editing="no" input-active="yes">
       <IO name="Случ. уд. MIDI" id="26459" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Случ. уд. MIDI/midi_in 1"/>
       </IO>
@@ -2052,6 +2053,10 @@
       <Region name="Ударные MIDI-2.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="288000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="4" length-beats="8" id="26423" type="midi" first-edit="nothing" bbt-position="4|1|0" source-0="22715" master-source-0="22715"/>
       <Region name="Ударные MIDI-2.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="480000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="4" length-beats="8" id="26433" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="22715" master-source-0="22715"/>
       <Region name="Ударные MIDI-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="288000" length="192000" position="672000" sync-position="288000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="12" length-beats="8" id="26163" type="midi" first-edit="nothing" bbt-position="8|1|0" source-0="22715" master-source-0="22715"/>
+      <Region name="Ударные MIDI-2.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="864000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="4" length-beats="8" id="26608" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="22715" master-source-0="22715"/>
+      <Region name="Ударные MIDI-2.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="1056000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="4" length-beats="8" id="26602" type="midi" first-edit="nothing" bbt-position="12|1|0" source-0="22715" master-source-0="22715"/>
+      <Region name="Ударные MIDI-2.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="1248000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="4" length-beats="8" id="26599" type="midi" first-edit="nothing" bbt-position="14|1|0" source-0="22715" master-source-0="22715"/>
+      <Region name="Ударные MIDI-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="288000" length="192000" position="1440000" sync-position="288000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="12" length-beats="8" id="26605" type="midi" first-edit="nothing" bbt-position="16|1|0" source-0="22715" master-source-0="22715"/>
     </Playlist>
     <Playlist id="403" name="Снейры" type="midi" orig-track-id="372" frozen="no" combine-ops="0"/>
     <Playlist id="1960" name="Бас MIDI.1" type="midi" orig-track-id="1929" frozen="no" combine-ops="0">
@@ -2059,9 +2064,15 @@
       <Region name="Бас MIDI-2.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="288000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="4" length-beats="8" id="26426" type="midi" first-edit="nothing" bbt-position="4|1|0" source-0="22970" master-source-0="22970"/>
       <Region name="Бас MIDI-2.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="480000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="4" length-beats="8" id="26436" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="22970" master-source-0="22970"/>
       <Region name="Бас MIDI-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="288000" length="192000" position="672000" sync-position="288000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="12" length-beats="8" id="26172" type="midi" first-edit="nothing" bbt-position="8|1|0" source-0="22970" master-source-0="22970"/>
+      <Region name="Бас MIDI-2.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="864000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="4" length-beats="8" id="26620" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="22970" master-source-0="22970"/>
+      <Region name="Бас MIDI-2.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="1056000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="4" length-beats="8" id="26614" type="midi" first-edit="nothing" bbt-position="12|1|0" source-0="22970" master-source-0="22970"/>
+      <Region name="Бас MIDI-2.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="1248000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="4" length-beats="8" id="26611" type="midi" first-edit="nothing" bbt-position="14|1|0" source-0="22970" master-source-0="22970"/>
+      <Region name="Бас MIDI-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="288000" length="192000" position="1440000" sync-position="288000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="12" length-beats="8" id="26617" type="midi" first-edit="nothing" bbt-position="16|1|0" source-0="22970" master-source-0="22970"/>
     </Playlist>
     <Playlist id="473" name="Тарелки" type="midi" orig-track-id="442" frozen="no" combine-ops="0"/>
-    <Playlist id="26473" name="Случ. уд. MIDI.2" type="midi" orig-track-id="26442" frozen="no" combine-ops="0"/>
+    <Playlist id="26473" name="Случ. уд. MIDI.2" type="midi" orig-track-id="26442" frozen="no" combine-ops="0">
+      <Region name="Случ. уд. MIDI-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="95999" position="96000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="3.99995833333" id="26590" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="26588" master-source-0="26588"/>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups>
@@ -2328,7 +2339,7 @@
           <Object id="processor 1786"/>
           <Object id="processor 1896"/>
         </Object>
-        <Object id="rtav 1767" height="62" visible="1" note-range-min="37" note-range-max="54" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
+        <Object id="rtav 1767" height="62" visible="1" note-range-min="37" note-range-max="51" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
         <Object id="automation 1788" height="184" visible="0"/>
         <Object id="automation 1767 10/0/0" height="184" visible="0"/>
         <Object id="route 1929" color="30345:44506:60691"/>
@@ -2337,7 +2348,7 @@
           <Object id="processor 2063"/>
           <Object id="processor 2254"/>
         </Object>
-        <Object id="rtav 1929" height="62" visible="1" note-range-min="45" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 1929" height="62" visible="1" note-range-min="44" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 1950" height="184" visible="0"/>
         <Object id="automation 1929 10/0/0" height="184" visible="0"/>
         <Object id="automation 1937" height="184" visible="0"/>
@@ -2350,7 +2361,7 @@
         <Object id="strip 26442" visible="1" strip-width="Wide">
           <Object id="processor 26461"/>
         </Object>
-        <Object id="rtav 26442" height="62" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 26442" height="62" visible="1" note-range-min="36" note-range-max="51" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
         <Object id="automation 26463" height="62" visible="0"/>
         <Object id="automation 26442 10/0/0" height="62" visible="0"/>
       </GUIObjectState>
