@@ -2,8 +2,8 @@
 <!--
 ladish Project.
 -->
-<!-- Sun Nov  8 23:18:34 2015 -->
-<project name="Основной проект" uuid="bb664c12-6a89-49e4-9f85-6d2124cf11de">
+<!-- Mon Nov  9 01:18:41 2015 -->
+<project name="Основной проект" uuid="0494e1c9-4de5-4aa0-90b8-ff542499d8ac">
   <room>
     <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
     <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
@@ -89,20 +89,20 @@ ladish Project.
           <port name="Подклад MIDI/audio_out 1" uuid="9cf3bc66-39af-4304-95d9-62c5e1dd0422" />
           <port name="Подклад MIDI/audio_out 2" uuid="b52c64ed-5495-414a-b4c5-9f3a05bd5eca" />
           <port name="Подклад MIDI/midi_out 1" uuid="d92daf39-e86a-434f-9e97-0452c1060a37" />
-          <port name="LTC-in" uuid="38c6aa04-7f36-4d04-b213-cc2509384072" />
-          <port name="LTC-out" uuid="e3066886-8ed8-49b1-917c-3083fe18a64a" />
           <port name="Секвенция MIDI/midi_in 1" uuid="aa500486-517e-42aa-ae13-b8b6a96ef948" />
           <port name="Секвенция MIDI/midi_out 1" uuid="98997fec-e1ef-43c6-a8b9-05f6b0d94b8f" />
-          <port name="Акк. MIDI 2/midi_in 1" uuid="fb809206-47b8-4fed-afad-9270a627f220" />
-          <port name="Акк. MIDI 2/midi_out 1" uuid="e48ab4ad-a9bc-404f-bc0c-409e05205f2f" />
-          <port name="Акк. MIDI 3/midi_in 1" uuid="dc379a17-57de-44cf-93ba-5f52c33fda47" />
-          <port name="Акк. MIDI 3/midi_out 1" uuid="86b6124c-67e5-4ce5-b626-61d2f6bdbdb8" />
+          <port name="Медл. секв. MIDI/midi_in 1" uuid="fb809206-47b8-4fed-afad-9270a627f220" />
+          <port name="Медл. секв. MIDI/midi_out 1" uuid="e48ab4ad-a9bc-404f-bc0c-409e05205f2f" />
+          <port name="Арпеджио MIDI/midi_in 1" uuid="dc379a17-57de-44cf-93ba-5f52c33fda47" />
+          <port name="Арпеджио MIDI/midi_out 1" uuid="86b6124c-67e5-4ce5-b626-61d2f6bdbdb8" />
           <port name="Секвенция MIDI/audio_out 1" uuid="259e0c74-025d-4476-b833-c9ee9003c4c9" />
           <port name="Секвенция MIDI/audio_out 2" uuid="831e19a3-eee4-4344-ad6a-ea922f3d8cda" />
-          <port name="Акк. MIDI 2/audio_out 1" uuid="c293a08e-c5b0-4539-81a4-6e0f56c53516" />
-          <port name="Акк. MIDI 2/audio_out 2" uuid="3ee3e7be-5c84-410b-901b-db6d0a717ed7" />
-          <port name="Акк. MIDI 3/audio_out 1" uuid="f0d7abe0-8421-41dc-80ce-78f1d99253dc" />
-          <port name="Акк. MIDI 3/audio_out 2" uuid="f92dac1d-6b43-4639-825d-18eaea9080ae" />
+          <port name="Медл. секв. MIDI/audio_out 1" uuid="c293a08e-c5b0-4539-81a4-6e0f56c53516" />
+          <port name="Медл. секв. MIDI/audio_out 2" uuid="3ee3e7be-5c84-410b-901b-db6d0a717ed7" />
+          <port name="Арпеджио MIDI/audio_out 1" uuid="f0d7abe0-8421-41dc-80ce-78f1d99253dc" />
+          <port name="Арпеджио MIDI/audio_out 2" uuid="f92dac1d-6b43-4639-825d-18eaea9080ae" />
+          <port name="LTC-in" uuid="04e63ad5-a932-4cb6-98fb-e395b5cb44f9" />
+          <port name="LTC-out" uuid="163cb1e8-1bce-4cb1-a4bd-bb0bdc3c42c7" />
         </ports>
       </client>
     </clients>
@@ -205,20 +205,20 @@ ladish Project.
         <port name="Подклад MIDI/audio_out 1" uuid="9cf3bc66-39af-4304-95d9-62c5e1dd0422" type="audio" direction="output" />
         <port name="Подклад MIDI/audio_out 2" uuid="b52c64ed-5495-414a-b4c5-9f3a05bd5eca" type="audio" direction="output" />
         <port name="Подклад MIDI/midi_out 1" uuid="d92daf39-e86a-434f-9e97-0452c1060a37" type="midi" direction="output" />
-        <port name="LTC-in" uuid="38c6aa04-7f36-4d04-b213-cc2509384072" type="audio" direction="input" />
-        <port name="LTC-out" uuid="e3066886-8ed8-49b1-917c-3083fe18a64a" type="audio" direction="output" />
         <port name="Секвенция MIDI/midi_in 1" uuid="aa500486-517e-42aa-ae13-b8b6a96ef948" type="midi" direction="input" />
         <port name="Секвенция MIDI/midi_out 1" uuid="98997fec-e1ef-43c6-a8b9-05f6b0d94b8f" type="midi" direction="output" />
-        <port name="Акк. MIDI 2/midi_in 1" uuid="fb809206-47b8-4fed-afad-9270a627f220" type="midi" direction="input" />
-        <port name="Акк. MIDI 2/midi_out 1" uuid="e48ab4ad-a9bc-404f-bc0c-409e05205f2f" type="midi" direction="output" />
-        <port name="Акк. MIDI 3/midi_in 1" uuid="dc379a17-57de-44cf-93ba-5f52c33fda47" type="midi" direction="input" />
-        <port name="Акк. MIDI 3/midi_out 1" uuid="86b6124c-67e5-4ce5-b626-61d2f6bdbdb8" type="midi" direction="output" />
+        <port name="Медл. секв. MIDI/midi_in 1" uuid="fb809206-47b8-4fed-afad-9270a627f220" type="midi" direction="input" />
+        <port name="Медл. секв. MIDI/midi_out 1" uuid="e48ab4ad-a9bc-404f-bc0c-409e05205f2f" type="midi" direction="output" />
+        <port name="Арпеджио MIDI/midi_in 1" uuid="dc379a17-57de-44cf-93ba-5f52c33fda47" type="midi" direction="input" />
+        <port name="Арпеджио MIDI/midi_out 1" uuid="86b6124c-67e5-4ce5-b626-61d2f6bdbdb8" type="midi" direction="output" />
         <port name="Секвенция MIDI/audio_out 1" uuid="259e0c74-025d-4476-b833-c9ee9003c4c9" type="audio" direction="output" />
         <port name="Секвенция MIDI/audio_out 2" uuid="831e19a3-eee4-4344-ad6a-ea922f3d8cda" type="audio" direction="output" />
-        <port name="Акк. MIDI 2/audio_out 1" uuid="c293a08e-c5b0-4539-81a4-6e0f56c53516" type="audio" direction="output" />
-        <port name="Акк. MIDI 2/audio_out 2" uuid="3ee3e7be-5c84-410b-901b-db6d0a717ed7" type="audio" direction="output" />
-        <port name="Акк. MIDI 3/audio_out 1" uuid="f0d7abe0-8421-41dc-80ce-78f1d99253dc" type="audio" direction="output" />
-        <port name="Акк. MIDI 3/audio_out 2" uuid="f92dac1d-6b43-4639-825d-18eaea9080ae" type="audio" direction="output" />
+        <port name="Медл. секв. MIDI/audio_out 1" uuid="c293a08e-c5b0-4539-81a4-6e0f56c53516" type="audio" direction="output" />
+        <port name="Медл. секв. MIDI/audio_out 2" uuid="3ee3e7be-5c84-410b-901b-db6d0a717ed7" type="audio" direction="output" />
+        <port name="Арпеджио MIDI/audio_out 1" uuid="f0d7abe0-8421-41dc-80ce-78f1d99253dc" type="audio" direction="output" />
+        <port name="Арпеджио MIDI/audio_out 2" uuid="f92dac1d-6b43-4639-825d-18eaea9080ae" type="audio" direction="output" />
+        <port name="LTC-in" uuid="04e63ad5-a932-4cb6-98fb-e395b5cb44f9" type="audio" direction="input" />
+        <port name="LTC-out" uuid="163cb1e8-1bce-4cb1-a4bd-bb0bdc3c42c7" type="audio" direction="output" />
       </ports>
       <dict>
         <key name="http://ladish.org/ns/canvas/x">1611.0</key>

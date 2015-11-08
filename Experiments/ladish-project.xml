@@ -2,8 +2,8 @@
 <!--
 ladish Project.
 -->
-<!-- Sun Nov  8 23:02:29 2015 -->
-<project name="Дополнительный проект" uuid="4b1bae67-c5a1-4853-84b2-d40467e0cd51">
+<!-- Mon Nov  9 01:18:43 2015 -->
+<project name="Дополнительный проект" uuid="0909e405-6320-41ed-a6bc-7f9da8bfe0f6">
   <room>
     <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
     <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />

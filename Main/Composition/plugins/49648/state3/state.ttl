@@ -1,0 +1,1237 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://kxstudio.sf.net/carla/plugins/carlarack> ;
+	state:state [
+		<http://kxstudio.sf.net/ns/carla/chunk> """<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+  <LADSPA_PATH>/home/andrey/.ladspa:/usr/lib/ladspa:/usr/local/lib/ladspa</LADSPA_PATH>
+  <DSSI_PATH>/home/andrey/.dssi:/usr/lib/dssi:/usr/local/lib/dssi</DSSI_PATH>
+  <LV2_PATH>/home/andrey/.lv2:/usr/lib/lv2:/usr/local/lib/lv2</LV2_PATH>
+  <VST2_PATH>/home/andrey/.vst:/usr/lib/vst:/usr/local/lib/vst</VST2_PATH>
+  <VST3_PATH>/home/andrey/.vst3:/usr/lib/vst3:/usr/local/lib/vst3</VST3_PATH>
+  <GIG_PATH>/home/andrey/.sounds/gig:/usr/share/sounds/gig</GIG_PATH>
+  <SF2_PATH>/home/andrey/.sounds/sf2:/usr/share/sounds/sf2</SF2_PATH>
+  <SFZ_PATH>/home/andrey/.sounds/sfz:/usr/share/sounds/sfz</SFZ_PATH>
+ </EngineSettings>
+
+ <!-- WhySynth 20120903 DSSI plugin -->
+ <Plugin>
+  <Info>
+   <Type>DSSI</Type>
+   <Name>WhySynth 20120903 DSSI plugin</Name>
+   <Binary>/usr/lib/dssi/whysynth.so</Binary>
+   <Label>WhySynth</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1e4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Osc1 Mode</Name>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Osc1 Waveform</Name>
+    <Value>154</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Osc1 Pitch</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Osc1 Detune</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Osc1 Pitch Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Osc1 Pitch Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Osc1 MParam 1</Name>
+    <Value>0.385318994522095</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Osc1 MParam 2</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Osc1 MMod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Osc1 MMod Amt</Name>
+    <Value>0.196777999401093</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Osc1 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Osc1 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Osc1-&gt;BusA Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Osc1-&gt;BusB Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Osc2 Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Osc2 Waveform</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Osc2 Pitch</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Osc2 Detune</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Osc2 Pitch Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Osc2 Pitch Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Osc2 MParam 1</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Osc2 MParam 2</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Osc2 MMod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Osc2 MMod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Osc2 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Osc2 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Osc2-&gt;BusA Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Osc2-&gt;BusB Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Osc3 Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Osc3 Waveform</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Osc3 Pitch</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Osc3 Detune</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Osc3 Pitch Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Osc3 Pitch Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Osc3 MParam 1</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Osc3 MParam 2</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Osc3 MMod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Osc3 MMod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Osc3 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Osc3 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Osc3-&gt;BusA Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Osc3-&gt;BusB Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Osc4 Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Osc4 Waveform</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Osc4 Pitch</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Osc4 Detune</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Osc4 Pitch Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Osc4 Pitch Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Osc4 MParam 1</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Osc4 MParam 2</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Osc4 MMod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Osc4 MMod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Osc4 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Osc4 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Osc4-&gt;BusA Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Osc4-&gt;BusB Level</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Filter1 Mode</Name>
+    <Value>6</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Filter1 Source</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Filter1 Frequency</Name>
+    <Value>3.29999995231628</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Filter1 Frq Mod Src</Name>
+    <Value>18</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Filter1 Frq Mod Amt</Name>
+    <Value>0.15488700568676</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Filter1 Resonance</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Filter1 MParameter</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Filter2 Mode</Name>
+    <Value>6</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Filter2 Source</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Filter2 Frequency</Name>
+    <Value>3.29999995231628</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Filter2 Frq Mod Src</Name>
+    <Value>18</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Filter2 Frq Mod Amt</Name>
+    <Value>0.158499002456665</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Filter2 Resonance</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>69</Index>
+    <Name>Filter2 MParameter</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>70</Index>
+    <Name>BusA-&gt;Out Level</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>71</Index>
+    <Name>BusA-&gt;Out Pan</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>72</Index>
+    <Name>BusB-&gt;Out Level</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>73</Index>
+    <Name>BusB-&gt;Out Pan</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>74</Index>
+    <Name>Filter1-&gt;Out Level</Name>
+    <Value>0.916019022464752</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>75</Index>
+    <Name>Filter1-&gt;Out Pan</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>76</Index>
+    <Name>Filter2-&gt;Out Level</Name>
+    <Value>0.903455018997192</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>77</Index>
+    <Name>Filter2-&gt;Out Pan</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>78</Index>
+    <Name>Volume</Name>
+    <Value>0.636999011039734</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>79</Index>
+    <Name>Effect Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>80</Index>
+    <Name>Effect Param 1</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>81</Index>
+    <Name>Effect Param 2</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>82</Index>
+    <Name>Effect Param 3</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>83</Index>
+    <Name>Effect Param 4</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>84</Index>
+    <Name>Effect Param 5</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>85</Index>
+    <Name>Effect Param 6</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>86</Index>
+    <Name>Effect Wet/Dry Mix</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>87</Index>
+    <Name>Glide Rate</Name>
+    <MidiCC>5</MidiCC>
+    <MidiChannel>1</MidiChannel>
+    <Value>0.984375</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>88</Index>
+    <Name>Bend Range</Name>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>89</Index>
+    <Name>GLFO Frequency</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>90</Index>
+    <Name>GLFO Waveform</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>91</Index>
+    <Name>GLFO Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>92</Index>
+    <Name>GLFO Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>93</Index>
+    <Name>VLFO Frequency</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>94</Index>
+    <Name>VLFO Waveform</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>95</Index>
+    <Name>VLFO Delay</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>96</Index>
+    <Name>VLFO Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>97</Index>
+    <Name>VLFO Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>98</Index>
+    <Name>MLFO Frequency</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>99</Index>
+    <Name>MLFO Waveform</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>100</Index>
+    <Name>MLFO Delay</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>101</Index>
+    <Name>MLFO Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>102</Index>
+    <Name>MLFO Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>103</Index>
+    <Name>MLFO Phase Spread</Name>
+    <Value>90</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>104</Index>
+    <Name>MLFO Random Freq</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>105</Index>
+    <Name>EGO Mode</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>106</Index>
+    <Name>EGO Shape 1</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>107</Index>
+    <Name>EGO Time 1</Name>
+    <Value>0.00761535996571183</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>108</Index>
+    <Name>EGO Level 1</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>109</Index>
+    <Name>EGO Shape 2</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>110</Index>
+    <Name>EGO Time 2</Name>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>111</Index>
+    <Name>EGO Level 2</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>112</Index>
+    <Name>EGO Shape 3</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>113</Index>
+    <Name>EGO Time 3</Name>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>114</Index>
+    <Name>EGO Level 3</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>115</Index>
+    <Name>EGO Shape 4</Name>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>116</Index>
+    <Name>EGO Time 4</Name>
+    <Value>4.61333990097046</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>117</Index>
+    <Name>EGO Vel Level Sens</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>118</Index>
+    <Name>EGO Vel Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>119</Index>
+    <Name>EGO Kbd Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>120</Index>
+    <Name>EGO Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>121</Index>
+    <Name>EGO Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>122</Index>
+    <Name>EG1 Mode</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>123</Index>
+    <Name>EG1 Shape 1</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>124</Index>
+    <Name>EG1 Time 1</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>125</Index>
+    <Name>EG1 Level 1</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>126</Index>
+    <Name>EG1 Shape 2</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>127</Index>
+    <Name>EG1 Time 2</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>128</Index>
+    <Name>EG1 Level 2</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>129</Index>
+    <Name>EG1 Shape 3</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>130</Index>
+    <Name>EG1 Time 3</Name>
+    <Value>1.30023002624512</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>131</Index>
+    <Name>EG1 Level 3</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>132</Index>
+    <Name>EG1 Shape 4</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>133</Index>
+    <Name>EG1 Time 4</Name>
+    <Value>0.931069016456604</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>134</Index>
+    <Name>EG1 Vel Level Sens</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>135</Index>
+    <Name>EG1 Vel Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>136</Index>
+    <Name>EG1 Kbd Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>137</Index>
+    <Name>EG1 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>138</Index>
+    <Name>EG1 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>139</Index>
+    <Name>EG2 Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>140</Index>
+    <Name>EG2 Shape 1</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>141</Index>
+    <Name>EG2 Time 1</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>142</Index>
+    <Name>EG2 Level 1</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>143</Index>
+    <Name>EG2 Shape 2</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>144</Index>
+    <Name>EG2 Time 2</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>145</Index>
+    <Name>EG2 Level 2</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>146</Index>
+    <Name>EG2 Shape 3</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>147</Index>
+    <Name>EG2 Time 3</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>148</Index>
+    <Name>EG2 Level 3</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>149</Index>
+    <Name>EG2 Shape 4</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>150</Index>
+    <Name>EG2 Time 4</Name>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>151</Index>
+    <Name>EG2 Vel Level Sens</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>152</Index>
+    <Name>EG2 Vel Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>153</Index>
+    <Name>EG2 Kbd Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>154</Index>
+    <Name>EG2 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>155</Index>
+    <Name>EG2 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>156</Index>
+    <Name>EG3 Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>157</Index>
+    <Name>EG3 Shape 1</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>158</Index>
+    <Name>EG3 Time 1</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>159</Index>
+    <Name>EG3 Level 1</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>160</Index>
+    <Name>EG3 Shape 2</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>161</Index>
+    <Name>EG3 Time 2</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>162</Index>
+    <Name>EG3 Level 2</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>163</Index>
+    <Name>EG3 Shape 3</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>164</Index>
+    <Name>EG3 Time 3</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>165</Index>
+    <Name>EG3 Level 3</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>166</Index>
+    <Name>EG3 Shape 4</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>167</Index>
+    <Name>EG3 Time 4</Name>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>168</Index>
+    <Name>EG3 Vel Level Sens</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>169</Index>
+    <Name>EG3 Vel Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>170</Index>
+    <Name>EG3 Kbd Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>171</Index>
+    <Name>EG3 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>172</Index>
+    <Name>EG3 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>173</Index>
+    <Name>EG4 Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>174</Index>
+    <Name>EG4 Shape 1</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>175</Index>
+    <Name>EG4 Time 1</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>176</Index>
+    <Name>EG4 Level 1</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>177</Index>
+    <Name>EG4 Shape 2</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>178</Index>
+    <Name>EG4 Time 2</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>179</Index>
+    <Name>EG4 Level 2</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>180</Index>
+    <Name>EG4 Shape 3</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>181</Index>
+    <Name>EG4 Time 3</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>182</Index>
+    <Name>EG4 Level 3</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>183</Index>
+    <Name>EG4 Shape 4</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>184</Index>
+    <Name>EG4 Time 4</Name>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>185</Index>
+    <Name>EG4 Vel Level Sens</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>186</Index>
+    <Name>EG4 Vel Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>187</Index>
+    <Name>EG4 Kbd Time Scale</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>188</Index>
+    <Name>EG4 Amp Mod Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>189</Index>
+    <Name>EG4 Amp Mod Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>190</Index>
+    <Name>ModMix Bias</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>191</Index>
+    <Name>ModMix Mod1 Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>192</Index>
+    <Name>ModMix Mod1 Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>193</Index>
+    <Name>ModMix Mod2 Src</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>194</Index>
+    <Name>ModMix Mod2 Amt</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>195</Index>
+    <Name>Tuning</Name>
+    <Value>440</Value>
+   </Parameter>
+
+   <CurrentMidiBank>1</CurrentMidiBank>
+   <CurrentMidiProgram>8</CurrentMidiProgram>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/string</Type>
+    <Key>monophonic</Key>
+    <Value>on</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+</CARLA-PROJECT>
+"""
+	] .

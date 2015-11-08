@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="49084" event-counter="477872">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="49826" event-counter="756247">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -86,6 +86,12 @@
     <Source name="Секвенция MIDI-1.mid" type="midi" flags="Writable,CanRename" id="48420" origin=""/>
     <Source name="Медл. секв. MIDI-2.mid" type="midi" flags="Writable,CanRename" id="48647" origin=""/>
     <Source name="Акк. MIDI 3-1.mid" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="48728" origin=""/>
+    <Source name="Арпеджио MIDI-1.mid" type="midi" flags="Writable,CanRename" id="49084" captured-for="Акк. MIDI 3" origin="">
+      <InterpolationStyle parameter="midicc-1-1" style="Discrete"/>
+    </Source>
+    <Source name="Арпеджио MIDI-2.mid" type="midi" flags="Writable,CanRename" id="49187" captured-for="Акк. MIDI 3" origin="">
+      <InterpolationStyle parameter="midicc-1-1" style="Discrete"/>
+    </Source>
   </Sources>
   <Regions>
     <Region name="Ударные MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="677888" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28.2453333333" id="23672" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="22715" master-source-0="22715"/>
@@ -131,6 +137,23 @@
     <Region name="Бас MIDI-2.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="288000" length="192000" position="2208000" sync-position="288000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="12" start-beats="12" length-beats="8" id="40715" type="midi" first-edit="nothing" bbt-position="24|1|0" source-0="22970" master-source-0="22970"/>
     <Region name="Ударные MIDI-2.27" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="2208000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="14" start-beats="4" length-beats="8" id="40877" type="midi" first-edit="nothing" bbt-position="24|1|0" source-0="22715" master-source-0="22715"/>
     <Region name="Акк. MIDI 3-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="95999" position="96000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="3.99995833333" id="48730" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="48728" master-source-0="48728"/>
+    <Region name="Арпеджио MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="863232" position="72000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="35.968" id="49180" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="49084" master-source-0="49084"/>
+    <Region name="Арпеджио MIDI-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="863232" position="72000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="35.968" id="49183" type="midi" first-edit="nothing" bbt-position="1|4|0" source-0="49084" master-source-0="49084"/>
+    <Region name="Арпеджио MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="846848" position="72000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="35.2853333333" id="49227" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="768000" position="96000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="1" length-beats="32" id="49230" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="96000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="1" length-beats="16" id="49280" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="480000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="17" length-beats="16" id="49283" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="2016000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="17" length-beats="16" id="49302" type="midi" first-edit="nothing" bbt-position="22|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="480000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="1" length-beats="16" id="49305" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="2400000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="17" length-beats="16" id="49311" type="midi" first-edit="nothing" bbt-position="26|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="864000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="1" length-beats="16" id="49314" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="2784000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="17" length-beats="16" id="49320" type="midi" first-edit="nothing" bbt-position="30|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="1248000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="1" length-beats="16" id="49323" type="midi" first-edit="nothing" bbt-position="14|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="96000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="1" length-beats="16" id="49412" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="480000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="17" length-beats="16" id="49415" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="768000" position="864000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="1" length-beats="32" id="49421" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="96000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="1" length-beats="16" id="49482" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Арпеджио MIDI-2.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="480000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="17" length-beats="16" id="49485" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="49187" master-source-0="49187"/>
   </Regions>
   <Locations>
     <Location id="23678" name="Сесссия" start="72000" end="3456000" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -352,12 +375,12 @@
     <Route id="204" name="Аккомпанемент" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Основные" order-key="4" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Аккомпанемент" id="221" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Аккомпанемент/audio_in 1">
-          <Connection other="Акк. MIDI 3/audio_out 1"/>
+          <Connection other="Арпеджио MIDI/audio_out 1"/>
           <Connection other="Медл. секв. MIDI/audio_out 1"/>
           <Connection other="Секвенция MIDI/audio_out 1"/>
         </Port>
         <Port type="audio" name="Аккомпанемент/audio_in 2">
-          <Connection other="Акк. MIDI 3/audio_out 2"/>
+          <Connection other="Арпеджио MIDI/audio_out 2"/>
           <Connection other="Медл. секв. MIDI/audio_out 2"/>
           <Connection other="Секвенция MIDI/audio_out 2"/>
         </Port>
@@ -2979,24 +3002,24 @@
       <Controllable name="recenable" id="44124" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Медл. секв. MIDI" name="Медл. секв. MIDI" id="44126" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="44131" name="Акк. MIDI 3" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Аккомпанемент" order-key="17" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
-      <IO name="Акк. MIDI 3" id="44148" direction="Input" default-type="midi" user-latency="0">
-        <Port type="midi" name="Акк. MIDI 3/midi_in 1">
+    <Route id="44131" name="Арпеджио MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="Аккомпанемент" order-key="17" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
+      <IO name="Арпеджио MIDI" id="44148" direction="Input" default-type="midi" user-latency="0">
+        <Port type="midi" name="Арпеджио MIDI/midi_in 1">
           <Connection other="jmcore-3:d8a5ac28-c0a2-47eb-b483-1a6711983af4"/>
         </Port>
       </IO>
-      <IO name="Акк. MIDI 3" id="44149" direction="Output" default-type="midi" user-latency="0">
-        <Port type="audio" name="Акк. MIDI 3/audio_out 1">
+      <IO name="Арпеджио MIDI" id="44149" direction="Output" default-type="midi" user-latency="0">
+        <Port type="audio" name="Арпеджио MIDI/audio_out 1">
           <Connection other="Аккомпанемент/audio_in 1"/>
         </Port>
-        <Port type="audio" name="Акк. MIDI 3/audio_out 2">
+        <Port type="audio" name="Арпеджио MIDI/audio_out 2">
           <Connection other="Аккомпанемент/audio_in 2"/>
         </Port>
-        <Port type="midi" name="Акк. MIDI 3/midi_out 1"/>
+        <Port type="midi" name="Арпеджио MIDI/midi_out 1"/>
       </IO>
       <Controllable name="solo" id="44133" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="44135" flags="Toggle" value="1.000000000000"/>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="yes"/>
+      <Controllable name="mute" id="44135" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
       <Automation/>
       <RemoteControl id="7"/>
       <Pannable>
@@ -3007,7 +3030,113 @@
         <Controllable name="pan-lfe" id="44147" flags="" value="0.000000000000"/>
         <Automation/>
       </Pannable>
-      <Processor id="44561" name="Reasonable Synth" active="yes" user-latency="0" type="lv2" unique-id="https://community.ardour.org/node/7596" count="1">
+      <Processor id="49087" name="MIDI Channel Filter" active="yes" user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#channelfilter" count="1">
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <ConfiguredOutput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
+          <Port symbol="chn1" value="+0.000000"/>
+          <Port symbol="chn2" value="+0.000000"/>
+          <Port symbol="chn3" value="+0.000000"/>
+          <Port symbol="chn4" value="+0.000000"/>
+          <Port symbol="chn5" value="+0.000000"/>
+          <Port symbol="chn6" value="+1.000000"/>
+          <Port symbol="chn7" value="+0.000000"/>
+          <Port symbol="chn8" value="+0.000000"/>
+          <Port symbol="chn9" value="+0.000000"/>
+          <Port symbol="chn10" value="+0.000000"/>
+          <Port symbol="chn11" value="+0.000000"/>
+          <Port symbol="chn12" value="+0.000000"/>
+          <Port symbol="chn13" value="+0.000000"/>
+          <Port symbol="chn14" value="+0.000000"/>
+          <Port symbol="chn15" value="+0.000000"/>
+          <Port symbol="chn16" value="+0.000000"/>
+        </lv2>
+        <Controllable name="Channel  1" id="49089" flags="Toggle" value="0.000000000000" parameter="3"/>
+        <Controllable name="Channel  2" id="49091" flags="Toggle" value="0.000000000000" parameter="4"/>
+        <Controllable name="Channel  3" id="49093" flags="Toggle" value="0.000000000000" parameter="5"/>
+        <Controllable name="Channel  4" id="49095" flags="Toggle" value="0.000000000000" parameter="6"/>
+        <Controllable name="Channel  5" id="49097" flags="Toggle" value="0.000000000000" parameter="7"/>
+        <Controllable name="Channel  6" id="49099" flags="Toggle" value="1.000000000000" parameter="8"/>
+        <Controllable name="Channel  7" id="49101" flags="Toggle" value="0.000000000000" parameter="9"/>
+        <Controllable name="Channel  8" id="49103" flags="Toggle" value="0.000000000000" parameter="10"/>
+        <Controllable name="Channel  9" id="49105" flags="Toggle" value="0.000000000000" parameter="11"/>
+        <Controllable name="Channel 10" id="49107" flags="Toggle" value="0.000000000000" parameter="12"/>
+        <Controllable name="Channel 11" id="49109" flags="Toggle" value="0.000000000000" parameter="13"/>
+        <Controllable name="Channel 12" id="49111" flags="Toggle" value="0.000000000000" parameter="14"/>
+        <Controllable name="Channel 13" id="49113" flags="Toggle" value="0.000000000000" parameter="15"/>
+        <Controllable name="Channel 14" id="49115" flags="Toggle" value="0.000000000000" parameter="16"/>
+        <Controllable name="Channel 15" id="49117" flags="Toggle" value="0.000000000000" parameter="17"/>
+        <Controllable name="Channel 16" id="49119" flags="Toggle" value="0.000000000000" parameter="18"/>
+      </Processor>
+      <Processor id="49121" name="QMidiArp Arp" active="yes" user-latency="0" type="lv2" unique-id="https://git.code.sf.net/p/qmidiarp/arp" count="1">
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <ConfiguredOutput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <lv2 last-preset-uri="https://git.code.sf.net/p/qmidiarp/arp#Pattern03" last-preset-label="Simple 16" parameter-changed-since-last-preset="yes" state-dir="state1">
+          <Port symbol="ATTACK" value="+0.000000"/>
+          <Port symbol="RELEASE" value="+0.000000"/>
+          <Port symbol="RANDOM_TICK" value="+0.000000"/>
+          <Port symbol="RANDOM_LEN" value="+0.000000"/>
+          <Port symbol="RANDOM_VEL" value="+0.000000"/>
+          <Port symbol="CH_IN" value="+0.000000"/>
+          <Port symbol="CH_OUT" value="+5.000000"/>
+          <Port symbol="ENABLE_RESTARTBYKBD" value="+0.000000"/>
+          <Port symbol="ENABLE_TRIGBYKBD" value="+0.000000"/>
+          <Port symbol="MUTE" value="+0.000000"/>
+          <Port symbol="LATCH_MODE" value="+0.000000"/>
+          <Port symbol="OCTAVE_MODE" value="+0.000000"/>
+          <Port symbol="OCTAVE_RANGE" value="+1.000000"/>
+          <Port symbol="MOUSEPRESSED" value="+0.000000"/>
+          <Port symbol="INDEX_IN1" value="+0.000000"/>
+          <Port symbol="INDEX_IN2" value="+127.000000"/>
+          <Port symbol="RANGE_IN1" value="+0.000000"/>
+          <Port symbol="RANGE_IN2" value="+127.000000"/>
+          <Port symbol="ENABLE_TRIGLEGATO" value="+0.000000"/>
+          <Port symbol="REPEAT_MODE" value="+2.000000"/>
+          <Port symbol="DEFER" value="+0.000000"/>
+          <Port symbol="PATTERN_PRESET" value="+0.000000"/>
+          <Port symbol="TRANSPORT_MODE" value="+1.000000"/>
+          <Port symbol="TEMPO" value="+120.000000"/>
+          <Port symbol="HOST_TEMPO" value="+120.000000"/>
+          <Port symbol="HOST_POSITION" value="+0.000000"/>
+          <Port symbol="HOST_SPEED" value="+0.000000"/>
+        </lv2>
+        <Controllable name="Attack" id="49123" flags="" value="0.000000000000" parameter="2"/>
+        <Controllable name="Release" id="49125" flags="" value="0.000000000000" parameter="3"/>
+        <Controllable name="Random Tick" id="49127" flags="" value="0.000000000000" parameter="4"/>
+        <Controllable name="Random Length" id="49129" flags="" value="0.000000000000" parameter="5"/>
+        <Controllable name="Random Velocity" id="49131" flags="" value="0.000000000000" parameter="6"/>
+        <Controllable name="Input Channel" id="49133" flags="" value="0.000000000000" parameter="7"/>
+        <Controllable name="Output Channel" id="49135" flags="" value="5.000000000000" parameter="8"/>
+        <Controllable name="Restart" id="49137" flags="Toggle" value="0.000000000000" parameter="10"/>
+        <Controllable name="Trigger" id="49139" flags="Toggle" value="0.000000000000" parameter="11"/>
+        <Controllable name="Mute Output" id="49141" flags="Toggle" value="0.000000000000" parameter="12"/>
+        <Controllable name="Latch mode" id="49143" flags="Toggle" value="0.000000000000" parameter="13"/>
+        <Controllable name="Octave Mode" id="49145" flags="" value="0.000000000000" parameter="14"/>
+        <Controllable name="Octave Range" id="49147" flags="" value="1.000000000000" parameter="15"/>
+        <Controllable name="hidden" id="49149" flags="" value="0.000000000000" parameter="16"/>
+        <Controllable name="Index In 1" id="49151" flags="" value="0.000000000000" parameter="17"/>
+        <Controllable name="Index In 2" id="49153" flags="" value="127.000000000000" parameter="18"/>
+        <Controllable name="Range In 1" id="49155" flags="" value="0.000000000000" parameter="19"/>
+        <Controllable name="Range In 1" id="49157" flags="" value="127.000000000000" parameter="20"/>
+        <Controllable name="Trigger Legato" id="49159" flags="Toggle" value="0.000000000000" parameter="21"/>
+        <Controllable name="Repeat Mode" id="49161" flags="" value="2.000000000000" parameter="22"/>
+        <Controllable name="Defer mute" id="49163" flags="Toggle" value="0.000000000000" parameter="24"/>
+        <Controllable name="Pattern Preset" id="49165" flags="" value="0.000000000000" parameter="25"/>
+        <Controllable name="Transport Mode" id="49167" flags="Toggle" value="1.000000000000" parameter="26"/>
+        <Controllable name="Internal Tempo" id="49169" flags="" value="120.000000000000" parameter="27"/>
+        <Controllable name="hidden" id="49171" flags="" value="120.000000000000" parameter="28"/>
+        <Controllable name="hidden" id="49173" flags="" value="0.000000000000" parameter="29"/>
+        <Controllable name="hidden" id="49175" flags="" value="0.000000000000" parameter="30"/>
+      </Processor>
+      <Processor id="49648" name="Carla-Rack" active="yes" user-latency="0" type="lv2" unique-id="http://kxstudio.sf.net/carla/plugins/carlarack" count="1">
         <ConfiguredInput>
           <Channels type="midi" count="1"/>
         </ConfiguredInput>
@@ -3015,13 +3144,46 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no"/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no" state-dir="state3">
+          <Port symbol="lv2_freewheel" value="+0.000000"/>
+        </lv2>
+        <Controllable name="hidden" id="49650" flags="Toggle" value="0.000000000000" parameter="2"/>
+      </Processor>
+      <Processor id="49807" name="Calf Phaser" active="yes" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Phaser" count="1">
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="no">
+          <Port symbol="base_freq" value="+1000.000000"/>
+          <Port symbol="mod_depth" value="+4000.000000"/>
+          <Port symbol="mod_rate" value="+0.250000"/>
+          <Port symbol="feedback" value="+0.250000"/>
+          <Port symbol="stages" value="+6.000000"/>
+          <Port symbol="stereo" value="+180.000000"/>
+          <Port symbol="reset" value="+0.000000"/>
+          <Port symbol="amount" value="+1.000000"/>
+          <Port symbol="dry" value="+1.000000"/>
+        </lv2>
+        <Controllable name="Center Freq" id="49809" flags="" value="1000.000000000000" parameter="4"/>
+        <Controllable name="Mod depth" id="49811" flags="" value="4000.000000000000" parameter="5"/>
+        <Controllable name="Mod rate" id="49813" flags="" value="0.250000000000" parameter="6"/>
+        <Controllable name="Feedback" id="49815" flags="" value="0.250000000000" parameter="7"/>
+        <Controllable name="# Stages" id="49817" flags="" value="6.000000000000" parameter="8"/>
+        <Controllable name="Stereo phase" id="49819" flags="" value="180.000000000000" parameter="9"/>
+        <Controllable name="Reset" id="49821" flags="Toggle" value="0.000000000000" parameter="10"/>
+        <Controllable name="Amount" id="49823" flags="" value="1.000000000000" parameter="11"/>
+        <Controllable name="Dry Amount" id="49825" flags="" value="1.000000000000" parameter="12"/>
       </Processor>
       <Processor id="44150" name="Amp" active="yes" user-latency="0" type="amp">
         <Controllable name="gaincontrol" id="44152" flags="GainLike" value="1.000000000000"/>
       </Processor>
       <Processor id="44156" name="meter-Акк. MIDI 3" active="yes" user-latency="0" type="meter"/>
-      <Processor id="44157" name="Акк. MIDI 3" active="yes" user-latency="0" own-input="yes" own-output="no" output="Акк. MIDI 3" type="main-outs" role="Main">
+      <Processor id="44157" name="Арпеджио MIDI" active="yes" user-latency="0" own-input="yes" own-output="no" output="Арпеджио MIDI" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
           <Controllable name="pan-azimuth" id="44139" flags="" value="0.500000000000"/>
@@ -3062,7 +3224,16 @@
     <Playlist id="44092" name="Секвенция MIDI" type="midi" orig-track-id="44061" frozen="no" combine-ops="0">
       <Region name="Секвенция MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="72000" length="3096000" position="72000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="3" length-beats="129" id="48422" type="midi" first-edit="nothing" bbt-position="1|4|0" source-0="48420" master-source-0="48420"/>
     </Playlist>
-    <Playlist id="44162" name="Акк. MIDI 3.1" type="midi" orig-track-id="44131" frozen="no" combine-ops="0"/>
+    <Playlist id="44162" name="Акк. MIDI 3.1" type="midi" orig-track-id="44131" frozen="no" combine-ops="0">
+      <Region name="Арпеджио MIDI-2.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="96000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="1" length-beats="16" id="49555" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="49187" master-source-0="49187"/>
+      <Region name="Арпеджио MIDI-2.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="480000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="1" length-beats="16" id="49571" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="49187" master-source-0="49187"/>
+      <Region name="Арпеджио MIDI-2.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="864000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="1" length-beats="16" id="49580" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="49187" master-source-0="49187"/>
+      <Region name="Арпеджио MIDI-2.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="1248000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="1" length-beats="16" id="49589" type="midi" first-edit="nothing" bbt-position="14|1|0" source-0="49187" master-source-0="49187"/>
+      <Region name="Арпеджио MIDI-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="1632000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="17" length-beats="16" id="49558" type="midi" first-edit="nothing" bbt-position="18|1|0" source-0="49187" master-source-0="49187"/>
+      <Region name="Арпеджио MIDI-2.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="2016000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="17" length-beats="16" id="49568" type="midi" first-edit="nothing" bbt-position="22|1|0" source-0="49187" master-source-0="49187"/>
+      <Region name="Арпеджио MIDI-2.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="2400000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="17" length-beats="16" id="49577" type="midi" first-edit="nothing" bbt-position="26|1|0" source-0="49187" master-source-0="49187"/>
+      <Region name="Арпеджио MIDI-2.21" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="2784000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="6" start-beats="17" length-beats="16" id="49586" type="midi" first-edit="nothing" bbt-position="30|1|0" source-0="49187" master-source-0="49187"/>
+    </Playlist>
     <Playlist id="44127" name="Медл. секв. MIDI" type="midi" orig-track-id="44096" frozen="no" combine-ops="0">
       <Region name="Медл. секв. MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6000" length="1536000" position="90000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0.25" length-beats="64" id="48649" type="midi" first-edit="nothing" bbt-position="1|4|1440" source-0="48647" master-source-0="48647"/>
       <Region name="Медл. секв.1 MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6000" length="1536000" position="1626000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0.25" length-beats="64" id="48715" type="midi" first-edit="nothing" bbt-position="17|4|1440" source-0="48647" master-source-0="48647"/>
@@ -3157,7 +3328,7 @@
       <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
       <ExportFilename>
         <Folder relative="true" path="/export"/>
-        <Field name="label" enabled="true" value="130-rhythm-1"/>
+        <Field name="label" enabled="true" value="130-rhythm-2"/>
         <Field name="session" enabled="false"/>
         <Field name="revision" enabled="false"/>
         <Field name="time" enabled="false" value="T_None"/>
@@ -3254,7 +3425,6 @@
       <Window name="P-44096-44115" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-44096-44121" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-44096-44122" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-44131-44561" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-44131-44150" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-44131-44156" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-44131-44157" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -3264,6 +3434,10 @@
       <Window name="P-44096-48589" visible="no" x-off="841" y-off="258" x-size="603" y-size="425" custom-ui="yes"/>
       <Window name="P-44096-48802" visible="no" x-off="0" y-off="0" x-size="1016" y-size="723" custom-ui="yes"/>
       <Window name="P-44096-49059" visible="no" x-off="0" y-off="60" x-size="840" y-size="377" custom-ui="yes"/>
+      <Window name="P-44131-49087" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="yes"/>
+      <Window name="P-44131-49121" visible="no" x-off="540" y-off="261" x-size="538" y-size="312" custom-ui="yes"/>
+      <Window name="P-44131-49648" visible="no" x-off="0" y-off="0" x-size="760" y-size="565" custom-ui="yes"/>
+      <Window name="P-44131-49807" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <GUIObjectState>
         <Object id="route 28" color="58981:39825:58662"/>
         <Object id="rtav 28" height="184" visible="0"/>
@@ -3435,7 +3609,7 @@
         <Object id="automation 44104" height="182" visible="0"/>
         <Object id="automation 44108" height="182" visible="0"/>
         <Object id="route 44131" color="48869:31193:62387"/>
-        <Object id="rtav 44131" height="61" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="60" note-range-max="71"/>
+        <Object id="rtav 44131" height="254" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="55" note-range-max="71"/>
         <Object id="automation 44152" height="61" visible="0"/>
         <Object id="automation 44131 10/0/0" height="61" visible="0"/>
         <Object id="automation 44139" height="61" visible="0"/>
@@ -3455,9 +3629,13 @@
           <Object id="processor 48802"/>
           <Object id="processor 49059"/>
         </Object>
-        <Object id="strip 44131" visible="1">
+        <Object id="strip 44131" visible="1" strip-width="Wide">
           <Object id="processor 44561"/>
           <Object id="processor 44150"/>
+          <Object id="processor 49087"/>
+          <Object id="processor 49121"/>
+          <Object id="processor 49648"/>
+          <Object id="processor 49807"/>
         </Object>
         <Object id="automation 48234" height="62" visible="1"/>
         <Object id="automation 48609" height="182" visible="1"/>
