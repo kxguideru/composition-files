@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="26183" event-counter="54727">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="26187" event-counter="57175">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -71,7 +71,7 @@
     <Region name="Бас MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="677888" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28.2453333333" id="23682" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="22970" master-source-0="22970"/>
   </Regions>
   <Locations>
-    <Location id="23678" name="Сесссия" start="0" end="576000" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="23678" name="Сесссия" start="96000" end="576000" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="26160" name="Петля" start="96000" end="480000" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
@@ -2035,6 +2035,29 @@
   </ControlProtocols>
   <Extra>
     <RulerVisibility timecode="no" bbt="yes" samples="no" minsec="no" tempo="yes" meter="yes" marker="yes" rangemarker="yes" transportmarker="yes" cdmarker="no" videotl="no"/>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="23678"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="Мастер/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Мастер/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="true" path="/export"/>
+        <Field name="label" enabled="true" value="110-first-measures"/>
+        <Field name="session" enabled="false"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="false" value="T_None"/>
+        <Field name="date" enabled="false" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="rc-options-editor" visible="no" x-off="104" y-off="124" x-size="1176" y-size="635"/>
