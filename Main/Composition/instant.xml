@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
-  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="4096" snap-to="SnapToBeat" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="654656" left-frame="0" y-origin="179,000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="240000">
-    <geometry x-size="1198" y-size="835" x-pos="394" y-pos="0" edit-horizontal-pane-pos="1053" notebook-shrunk="1" edit-vertical-pane-pos="576"/>
+  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="4096" snap-to="SnapToBeatDiv4" snap-mode="SnapNormal" internal-snap-to="SnapToBar" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv4" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="72000" left-frame="0" y-origin="372,000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="240000">
+    <geometry x-size="1600" y-size="840" x-pos="-4" y-pos="-1" edit-horizontal-pane-pos="1455" notebook-shrunk="1" edit-vertical-pane-pos="580"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <Region id="48422"/>
-      <Marker id="23678" start="yes"/>
+      <RouteView id="1767"/>
+      <RouteView id="26442"/>
+      <RouteView id="1929"/>
+      <RouteView id="37295"/>
+      <RouteView id="44061"/>
+      <RouteView id="44096"/>
+      <RouteView id="44131"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
   </Editor>
