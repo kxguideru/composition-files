@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="20675" event-counter="33101">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="23793" event-counter="46379">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -35,7 +35,7 @@
     <Option name="jack-time-master" value="0"/>
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
-    <Option name="external-sync" value="0"/>
+    <Option name="external-sync" value="1"/>
     <Option name="insert-merge-policy" value="1"/>
     <Option name="timecode-offset" value="0"/>
     <Option name="timecode-offset-negative" value="1"/>
@@ -62,9 +62,17 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
-  <Locations/>
+  <Sources>
+    <Source name="Ударные MIDI-2.mid" type="midi" flags="Writable,CanRename" id="22715" captured-for="Ударные MIDI" origin=""/>
+    <Source name="Бас MIDI-2.mid" type="midi" flags="Writable,CanRename" id="22970" captured-for="Бас MIDI" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="Ударные MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="677888" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28.2453333333" id="23672" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="22715" master-source-0="22715"/>
+    <Region name="Бас MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="677888" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28.2453333333" id="23682" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="22970" master-source-0="22970"/>
+  </Regions>
+  <Locations>
+    <Location id="23678" name="Сесссия" start="0" end="576000" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
   <Bundles/>
   <Routes>
     <Route id="28" name="Мастер 1" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
@@ -452,7 +460,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state7">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state8">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -747,7 +755,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state10">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state11">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1042,7 +1050,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state10">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state11">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1337,7 +1345,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state10">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state11">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1971,11 +1979,15 @@
   </Routes>
   <Playlists>
     <Playlist id="438" name="Хай-хэты" type="midi" orig-track-id="407" frozen="no" combine-ops="0"/>
-    <Playlist id="403" name="Снейры" type="midi" orig-track-id="372" frozen="no" combine-ops="0"/>
     <Playlist id="368" name="Бочки" type="midi" orig-track-id="337" frozen="no" combine-ops="0"/>
+    <Playlist id="403" name="Снейры" type="midi" orig-track-id="372" frozen="no" combine-ops="0"/>
+    <Playlist id="1798" name="Ударные MIDI.1" type="midi" orig-track-id="1767" frozen="no" combine-ops="0">
+      <Region name="Ударные MIDI-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="384000" position="96000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="16" id="23675" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="22715" master-source-0="22715"/>
+    </Playlist>
+    <Playlist id="1960" name="Бас MIDI.1" type="midi" orig-track-id="1929" frozen="no" combine-ops="0">
+      <Region name="Бас MIDI-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="384000" position="96000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="16" id="23685" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="22970" master-source-0="22970"/>
+    </Playlist>
     <Playlist id="473" name="Тарелки" type="midi" orig-track-id="442" frozen="no" combine-ops="0"/>
-    <Playlist id="1798" name="Ударные MIDI.1" type="midi" orig-track-id="1767" frozen="no" combine-ops="0"/>
-    <Playlist id="1960" name="Бас MIDI.1" type="midi" orig-track-id="1929" frozen="no" combine-ops="0"/>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups>
@@ -2037,15 +2049,11 @@
       <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="1150" y-size="923"/>
+      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="995" y-size="850"/>
       <Window name="P-28-50" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-47" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-53" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-54" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1896" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
-      <Window name="P-1767-1786" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1792" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1793" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-124" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-131" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-121" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -2076,22 +2084,26 @@
       <Window name="P-272-291" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-272-297" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-272-298" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-337-6986" visible="no" x-off="617" y-off="0" x-size="535" y-size="543" custom-ui="no"/>
+      <Window name="P-337-6986" visible="no" x-off="617" y-off="0" x-size="535" y-size="543" custom-ui="yes"/>
       <Window name="P-337-356" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-337-362" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-337-363" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-372-1023" visible="no" x-off="730" y-off="0" x-size="535" y-size="543" custom-ui="no"/>
+      <Window name="P-372-1023" visible="no" x-off="730" y-off="0" x-size="535" y-size="543" custom-ui="yes"/>
       <Window name="P-372-391" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-372-397" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-372-398" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-407-1266" visible="no" x-off="813" y-off="0" x-size="535" y-size="543" custom-ui="no"/>
+      <Window name="P-407-1266" visible="no" x-off="813" y-off="0" x-size="535" y-size="543" custom-ui="yes"/>
       <Window name="P-407-426" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-407-432" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-407-433" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-442-1509" visible="no" x-off="842" y-off="0" x-size="535" y-size="543" custom-ui="no"/>
+      <Window name="P-442-1509" visible="no" x-off="842" y-off="0" x-size="535" y-size="543" custom-ui="yes"/>
       <Window name="P-442-461" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-442-467" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-442-468" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1896" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
+      <Window name="P-1767-1786" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1792" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1793" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1929-2254" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
       <Window name="P-1929-2063" visible="no" x-off="164" y-off="0" x-size="695" y-size="713" custom-ui="no"/>
       <Window name="P-1929-1948" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -2099,12 +2111,12 @@
       <Window name="P-1929-1955" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <GUIObjectState>
         <Object id="route 28" color="58981:39825:58662"/>
-        <Object id="rtav 28" height="62" visible="0"/>
-        <Object id="automation 49" height="62" visible="0"/>
-        <Object id="automation 52" height="62" visible="0"/>
-        <Object id="automation 28 10/0/0" height="62" visible="0"/>
-        <Object id="automation 36" height="62" visible="0"/>
-        <Object id="automation 40" height="62" visible="0"/>
+        <Object id="rtav 28" height="184" visible="0"/>
+        <Object id="automation 49" height="184" visible="0"/>
+        <Object id="automation 52" height="184" visible="0"/>
+        <Object id="automation 28 10/0/0" height="184" visible="0"/>
+        <Object id="automation 36" height="184" visible="0"/>
+        <Object id="automation 40" height="184" visible="0"/>
         <Object id="strip 28" visible="1" strip-width="Wide">
           <Object id="processor 47"/>
         </Object>
@@ -2133,42 +2145,42 @@
         <Object id="strip 272" visible="1" strip-width="Wide">
           <Object id="processor 291"/>
         </Object>
-        <Object id="rtav 102" height="62" visible="0"/>
-        <Object id="automation 123" height="62" visible="0"/>
-        <Object id="automation 126" height="62" visible="0"/>
-        <Object id="automation 102 10/0/0" height="62" visible="0"/>
-        <Object id="automation 110" height="62" visible="0"/>
-        <Object id="automation 114" height="62" visible="0"/>
-        <Object id="rtav 136" height="62" visible="0"/>
-        <Object id="automation 157" height="62" visible="0"/>
-        <Object id="automation 160" height="62" visible="0"/>
-        <Object id="automation 136 10/0/0" height="62" visible="0"/>
-        <Object id="automation 144" height="62" visible="0"/>
-        <Object id="automation 148" height="62" visible="0"/>
-        <Object id="rtav 170" height="62" visible="0"/>
-        <Object id="automation 191" height="62" visible="0"/>
-        <Object id="automation 194" height="62" visible="0"/>
-        <Object id="automation 170 10/0/0" height="62" visible="0"/>
-        <Object id="automation 178" height="62" visible="0"/>
-        <Object id="automation 182" height="62" visible="0"/>
-        <Object id="rtav 204" height="62" visible="0"/>
-        <Object id="automation 225" height="62" visible="0"/>
-        <Object id="automation 228" height="62" visible="0"/>
-        <Object id="automation 204 10/0/0" height="62" visible="0"/>
-        <Object id="automation 212" height="62" visible="0"/>
-        <Object id="automation 216" height="62" visible="0"/>
-        <Object id="rtav 238" height="62" visible="0"/>
-        <Object id="automation 259" height="62" visible="0"/>
-        <Object id="automation 262" height="62" visible="0"/>
-        <Object id="automation 238 10/0/0" height="62" visible="0"/>
-        <Object id="automation 246" height="62" visible="0"/>
-        <Object id="automation 250" height="62" visible="0"/>
-        <Object id="rtav 272" height="62" visible="0"/>
-        <Object id="automation 293" height="62" visible="0"/>
-        <Object id="automation 296" height="62" visible="0"/>
-        <Object id="automation 272 10/0/0" height="62" visible="0"/>
-        <Object id="automation 280" height="62" visible="0"/>
-        <Object id="automation 284" height="62" visible="0"/>
+        <Object id="rtav 102" height="184" visible="0"/>
+        <Object id="automation 123" height="184" visible="0"/>
+        <Object id="automation 126" height="184" visible="0"/>
+        <Object id="automation 102 10/0/0" height="184" visible="0"/>
+        <Object id="automation 110" height="184" visible="0"/>
+        <Object id="automation 114" height="184" visible="0"/>
+        <Object id="rtav 136" height="184" visible="0"/>
+        <Object id="automation 157" height="184" visible="0"/>
+        <Object id="automation 160" height="184" visible="0"/>
+        <Object id="automation 136 10/0/0" height="184" visible="0"/>
+        <Object id="automation 144" height="184" visible="0"/>
+        <Object id="automation 148" height="184" visible="0"/>
+        <Object id="rtav 170" height="184" visible="0"/>
+        <Object id="automation 191" height="184" visible="0"/>
+        <Object id="automation 194" height="184" visible="0"/>
+        <Object id="automation 170 10/0/0" height="184" visible="0"/>
+        <Object id="automation 178" height="184" visible="0"/>
+        <Object id="automation 182" height="184" visible="0"/>
+        <Object id="rtav 204" height="184" visible="0"/>
+        <Object id="automation 225" height="184" visible="0"/>
+        <Object id="automation 228" height="184" visible="0"/>
+        <Object id="automation 204 10/0/0" height="184" visible="0"/>
+        <Object id="automation 212" height="184" visible="0"/>
+        <Object id="automation 216" height="184" visible="0"/>
+        <Object id="rtav 238" height="184" visible="0"/>
+        <Object id="automation 259" height="184" visible="0"/>
+        <Object id="automation 262" height="184" visible="0"/>
+        <Object id="automation 238 10/0/0" height="184" visible="0"/>
+        <Object id="automation 246" height="184" visible="0"/>
+        <Object id="automation 250" height="184" visible="0"/>
+        <Object id="rtav 272" height="184" visible="0"/>
+        <Object id="automation 293" height="184" visible="0"/>
+        <Object id="automation 296" height="184" visible="0"/>
+        <Object id="automation 272 10/0/0" height="184" visible="0"/>
+        <Object id="automation 280" height="184" visible="0"/>
+        <Object id="automation 284" height="184" visible="0"/>
         <Object id="route_group 336" color="58368:46336:36608"/>
         <Object id="route 337" color="33914:58981:29490"/>
         <Object id="route 372" color="58278:44916:58981"/>
@@ -2191,45 +2203,45 @@
           <Object id="processor 461"/>
           <Object id="processor 1509"/>
         </Object>
-        <Object id="rtav 337" height="62" visible="0" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 358" height="62" visible="0"/>
-        <Object id="automation 337 10/0/0" height="62" visible="0"/>
-        <Object id="rtav 372" height="62" visible="0" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 393" height="62" visible="0"/>
-        <Object id="automation 372 10/0/0" height="62" visible="0"/>
-        <Object id="rtav 407" height="62" visible="0" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 428" height="62" visible="0"/>
-        <Object id="automation 407 10/0/0" height="62" visible="0"/>
-        <Object id="rtav 442" height="62" visible="0" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 463" height="62" visible="0"/>
-        <Object id="automation 442 10/0/0" height="62" visible="0"/>
-        <Object id="automation 345" height="62" visible="0"/>
-        <Object id="automation 349" height="62" visible="0"/>
-        <Object id="automation 380" height="62" visible="0"/>
-        <Object id="automation 384" height="62" visible="0"/>
-        <Object id="automation 415" height="62" visible="0"/>
-        <Object id="automation 419" height="62" visible="0"/>
-        <Object id="automation 450" height="62" visible="0"/>
-        <Object id="automation 454" height="62" visible="0"/>
+        <Object id="rtav 337" height="184" visible="0" note-range-min="59" note-range-max="72" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="automation 358" height="184" visible="0"/>
+        <Object id="automation 337 10/0/0" height="184" visible="0"/>
+        <Object id="rtav 372" height="184" visible="0" note-range-min="59" note-range-max="72" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="automation 393" height="184" visible="0"/>
+        <Object id="automation 372 10/0/0" height="184" visible="0"/>
+        <Object id="rtav 407" height="184" visible="0" note-range-min="59" note-range-max="72" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="automation 428" height="184" visible="0"/>
+        <Object id="automation 407 10/0/0" height="184" visible="0"/>
+        <Object id="rtav 442" height="184" visible="0" note-range-min="59" note-range-max="72" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="automation 463" height="184" visible="0"/>
+        <Object id="automation 442 10/0/0" height="184" visible="0"/>
+        <Object id="automation 345" height="184" visible="0"/>
+        <Object id="automation 349" height="184" visible="0"/>
+        <Object id="automation 380" height="184" visible="0"/>
+        <Object id="automation 384" height="184" visible="0"/>
+        <Object id="automation 415" height="184" visible="0"/>
+        <Object id="automation 419" height="184" visible="0"/>
+        <Object id="automation 450" height="184" visible="0"/>
+        <Object id="automation 454" height="184" visible="0"/>
         <Object id="route 1767" color="58981:38808:48895"/>
         <Object id="strip 1767" visible="1" strip-width="Wide">
           <Object id="processor 1786"/>
           <Object id="processor 1896"/>
         </Object>
-        <Object id="rtav 1767" height="62" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 1788" height="62" visible="0"/>
-        <Object id="automation 1767 10/0/0" height="62" visible="0"/>
+        <Object id="rtav 1767" height="184" visible="1" note-range-min="37" note-range-max="50" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
+        <Object id="automation 1788" height="184" visible="0"/>
+        <Object id="automation 1767 10/0/0" height="184" visible="0"/>
         <Object id="route 1929" color="30345:44506:60691"/>
         <Object id="strip 1929" visible="1" strip-width="Wide">
           <Object id="processor 1948"/>
           <Object id="processor 2063"/>
           <Object id="processor 2254"/>
         </Object>
-        <Object id="rtav 1929" height="62" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
-        <Object id="automation 1950" height="62" visible="0"/>
-        <Object id="automation 1929 10/0/0" height="62" visible="0"/>
-        <Object id="automation 1937" height="62" visible="0"/>
-        <Object id="automation 1941" height="62" visible="0"/>
+        <Object id="rtav 1929" height="184" visible="1" note-range-min="45" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="automation 1950" height="184" visible="0"/>
+        <Object id="automation 1929 10/0/0" height="184" visible="0"/>
+        <Object id="automation 1937" height="184" visible="0"/>
+        <Object id="automation 1941" height="184" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="no"/>
