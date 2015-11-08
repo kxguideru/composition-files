@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="16622" event-counter="33101">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="21320" event-counter="33101">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -28,7 +28,7 @@
     <Option name="timecode-format" value="8"/>
     <Option name="raid-path" value=""/>
     <Option name="audio-search-path" value=""/>
-    <Option name="midi-search-path" value="Composition/interchange/Composition/midifiles"/>
+    <Option name="midi-search-path" value="/home/andrey/Audio/Composition/Main/Composition/interchange/Composition/midifiles"/>
     <Option name="track-name-number" value="0"/>
     <Option name="track-name-take" value="0"/>
     <Option name="take-name" value="Take1"/>
@@ -88,10 +88,10 @@
       </IO>
       <IO name="Мастер" id="46" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Мастер/audio_out 1">
-          <Connection other="jmcore-4:046f6e3d-5e9e-4ffa-abef-f25c996145df"/>
+          <Connection other="jmcore-20:69cd288c-9498-4448-a3f9-9ae3311bdbcc"/>
         </Port>
         <Port type="audio" name="Мастер/audio_out 2">
-          <Connection other="jmcore-5:d3c0b223-7b06-44da-a8dc-e9700f5ac5e3"/>
+          <Connection other="jmcore-21:8baaf8a4-369b-41d2-9bbf-7f52b15cc148"/>
         </Port>
       </IO>
       <Controllable name="solo" id="30" flags="Toggle" value="0.000000000000"/>
@@ -452,7 +452,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state5">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state7">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -747,7 +747,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state8">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state10">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1042,7 +1042,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state8">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state10">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1337,7 +1337,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state8">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state10">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1599,7 +1599,7 @@
     <Route id="1767" name="Ударные MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="11" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0x200" capture-channel-mask="0x200" note-mode="Percussive" step-editing="no" input-active="yes">
       <IO name="Ударные MIDI" id="1784" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Ударные MIDI/midi_in 1">
-          <Connection other="jmcore-3:4cdadbff-7221-408b-b04a-cbefd62eabf1"/>
+          <Connection other="jmcore-19:4175719c-f0dd-49a5-9d06-d5a631c2669d"/>
         </Port>
       </IO>
       <IO name="Ударные MIDI" id="1785" direction="Output" default-type="midi" user-latency="0">
@@ -1686,7 +1686,7 @@
     <Route id="1929" name="Бас MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="12" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <IO name="Бас MIDI" id="1946" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Бас MIDI/midi_in 1">
-          <Connection other="jmcore-3:4cdadbff-7221-408b-b04a-cbefd62eabf1"/>
+          <Connection other="jmcore-19:4175719c-f0dd-49a5-9d06-d5a631c2669d"/>
         </Port>
       </IO>
       <IO name="Бас MIDI" id="1947" direction="Output" default-type="midi" user-latency="0">
@@ -1970,12 +1970,12 @@
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="1960" name="Бас MIDI.1" type="midi" orig-track-id="1929" frozen="no" combine-ops="0"/>
     <Playlist id="438" name="Хай-хэты" type="midi" orig-track-id="407" frozen="no" combine-ops="0"/>
-    <Playlist id="1798" name="Ударные MIDI.1" type="midi" orig-track-id="1767" frozen="no" combine-ops="0"/>
-    <Playlist id="368" name="Бочки" type="midi" orig-track-id="337" frozen="no" combine-ops="0"/>
     <Playlist id="403" name="Снейры" type="midi" orig-track-id="372" frozen="no" combine-ops="0"/>
+    <Playlist id="368" name="Бочки" type="midi" orig-track-id="337" frozen="no" combine-ops="0"/>
     <Playlist id="473" name="Тарелки" type="midi" orig-track-id="442" frozen="no" combine-ops="0"/>
+    <Playlist id="1798" name="Ударные MIDI.1" type="midi" orig-track-id="1767" frozen="no" combine-ops="0"/>
+    <Playlist id="1960" name="Бас MIDI.1" type="midi" orig-track-id="1929" frozen="no" combine-ops="0"/>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups>
@@ -1985,11 +1985,11 @@
   <Click>
     <IO name="Click" id="24" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="Click/audio_out 1">
-        <Connection other="jmcore-6:de467b1e-53ae-4b57-bd8e-5bed91cea475"/>
+        <Connection other="jmcore-22:a9068f23-ae1b-4de2-a642-6b6a8352c15b"/>
         <Connection other="system:playback_1"/>
       </Port>
       <Port type="audio" name="Click/audio_out 2">
-        <Connection other="jmcore-7:c192fee1-4a67-49db-99b8-88c9457924dc"/>
+        <Connection other="jmcore-23:6cd04551-7c15-4d09-ae80-13e7097f0de7"/>
         <Connection other="system:playback_2"/>
       </Port>
     </IO>
@@ -1998,12 +1998,12 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="14279" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="22" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in"/>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="14280" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="23" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -2037,15 +2037,11 @@
       <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="1150" y-size="923"/>
+      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="995" y-size="850"/>
       <Window name="P-28-50" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-47" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-53" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-54" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1896" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
-      <Window name="P-1767-1786" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1792" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1793" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-124" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-131" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-121" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -2092,6 +2088,10 @@
       <Window name="P-442-461" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-442-467" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-442-468" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1896" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
+      <Window name="P-1767-1786" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1792" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1793" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1929-2254" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
       <Window name="P-1929-2063" visible="no" x-off="164" y-off="0" x-size="695" y-size="713" custom-ui="no"/>
       <Window name="P-1929-1948" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>

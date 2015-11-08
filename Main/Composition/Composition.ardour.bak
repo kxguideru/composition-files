@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="19023" event-counter="41507">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="20675" event-counter="33101">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -28,14 +28,14 @@
     <Option name="timecode-format" value="8"/>
     <Option name="raid-path" value=""/>
     <Option name="audio-search-path" value=""/>
-    <Option name="midi-search-path" value="Composition/interchange/Composition/midifiles"/>
+    <Option name="midi-search-path" value="/home/andrey/Audio/Composition/Main/Composition/interchange/Composition/midifiles"/>
     <Option name="track-name-number" value="0"/>
     <Option name="track-name-take" value="0"/>
     <Option name="take-name" value="Take1"/>
     <Option name="jack-time-master" value="0"/>
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
-    <Option name="external-sync" value="1"/>
+    <Option name="external-sync" value="0"/>
     <Option name="insert-merge-policy" value="1"/>
     <Option name="timecode-offset" value="0"/>
     <Option name="timecode-offset-negative" value="1"/>
@@ -62,13 +62,9 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources>
-    <Source name="Ударные MIDI-1.mid" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="18986" origin=""/>
-  </Sources>
+  <Sources/>
   <Regions/>
-  <Locations>
-    <Location id="18991" name="Сесссия" start="72000" end="1271999" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-  </Locations>
+  <Locations/>
   <Bundles/>
   <Routes>
     <Route id="28" name="Мастер 1" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
@@ -456,7 +452,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state6">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state7">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -751,7 +747,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state9">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state10">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1046,7 +1042,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state9">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state10">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1341,7 +1337,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state9">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state10">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1600,7 +1596,7 @@
       <Controllable name="recenable" id="470" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Тарелки" name="Тарелки" id="472" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="1767" name="Ударные MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterInput" meter-type="MeterPeak" order-key="11" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0x200" capture-channel-mask="0x200" note-mode="Percussive" step-editing="no" input-active="yes">
+    <Route id="1767" name="Ударные MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="11" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0x200" capture-channel-mask="0x200" note-mode="Percussive" step-editing="no" input-active="yes">
       <IO name="Ударные MIDI" id="1784" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Ударные MIDI/midi_in 1">
           <Connection other="jmcore-19:4175719c-f0dd-49a5-9d06-d5a631c2669d"/>
@@ -1627,7 +1623,6 @@
         <Controllable name="pan-lfe" id="1783" flags="" value="0.000000000000"/>
         <Automation/>
       </Pannable>
-      <Processor id="1792" name="meter-Ударные MIDI" active="yes" user-latency="0" type="meter"/>
       <Processor id="1896" name="MIDI Channel Filter" active="yes" user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#channelfilter" count="1">
         <ConfiguredInput>
           <Channels type="midi" count="1"/>
@@ -1673,6 +1668,7 @@
       <Processor id="1786" name="Amp" active="yes" user-latency="0" type="amp">
         <Controllable name="gaincontrol" id="1788" flags="GainLike" value="1.000000000000"/>
       </Processor>
+      <Processor id="1792" name="meter-Ударные MIDI" active="yes" user-latency="0" type="meter"/>
       <Processor id="1793" name="Ударные MIDI" active="yes" user-latency="0" own-input="yes" own-output="no" output="Ударные MIDI" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
@@ -1684,10 +1680,10 @@
           <Automation/>
         </Pannable>
       </Processor>
-      <Controllable name="recenable" id="1795" flags="Toggle" value="1.000000000000"/>
+      <Controllable name="recenable" id="1795" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Ударные MIDI.1" name="Ударные MIDI" id="1797" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
-    <Route id="1929" name="Бас MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterInput" meter-type="MeterPeak" order-key="12" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
+    <Route id="1929" name="Бас MIDI" default-type="midi" active="yes" phase-invert="" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="12" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" playback-channel-mode="FilterChannels" capture-channel-mode="FilterChannels" playback-channel-mask="0x1" capture-channel-mask="0x1" note-mode="Sustained" step-editing="no" input-active="yes">
       <IO name="Бас MIDI" id="1946" direction="Input" default-type="midi" user-latency="0">
         <Port type="midi" name="Бас MIDI/midi_in 1">
           <Connection other="jmcore-19:4175719c-f0dd-49a5-9d06-d5a631c2669d"/>
@@ -1715,7 +1711,6 @@
         <Controllable name="pan-lfe" id="1945" flags="" value="0.000000000000"/>
         <Automation/>
       </Pannable>
-      <Processor id="1954" name="meter-Бас MIDI" active="yes" user-latency="0" type="meter"/>
       <Processor id="2254" name="MIDI Channel Filter" active="yes" user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#channelfilter" count="1">
         <ConfiguredInput>
           <Channels type="midi" count="1"/>
@@ -1958,6 +1953,7 @@
       <Processor id="1948" name="Amp" active="yes" user-latency="0" type="amp">
         <Controllable name="gaincontrol" id="1950" flags="GainLike" value="1.000000000000"/>
       </Processor>
+      <Processor id="1954" name="meter-Бас MIDI" active="yes" user-latency="0" type="meter"/>
       <Processor id="1955" name="Бас MIDI" active="yes" user-latency="0" own-input="yes" own-output="no" output="Бас MIDI" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
@@ -1969,19 +1965,17 @@
           <Automation/>
         </Pannable>
       </Processor>
-      <Controllable name="recenable" id="1957" flags="Toggle" value="1.000000000000"/>
+      <Controllable name="recenable" id="1957" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="Бас MIDI.1" name="Бас MIDI" id="1959" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="1960" name="Бас MIDI.1" type="midi" orig-track-id="1929" frozen="no" combine-ops="0"/>
-    <Playlist id="1798" name="Ударные MIDI.1" type="midi" orig-track-id="1767" frozen="no" combine-ops="0">
-      <Region name="Ударные MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1151999" position="72000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="47.9999583333" id="18988" type="midi" first-edit="nothing" bbt-position="1|4|0" source-0="18986" master-source-0="18986"/>
-    </Playlist>
     <Playlist id="438" name="Хай-хэты" type="midi" orig-track-id="407" frozen="no" combine-ops="0"/>
     <Playlist id="403" name="Снейры" type="midi" orig-track-id="372" frozen="no" combine-ops="0"/>
     <Playlist id="368" name="Бочки" type="midi" orig-track-id="337" frozen="no" combine-ops="0"/>
     <Playlist id="473" name="Тарелки" type="midi" orig-track-id="442" frozen="no" combine-ops="0"/>
+    <Playlist id="1798" name="Ударные MIDI.1" type="midi" orig-track-id="1767" frozen="no" combine-ops="0"/>
+    <Playlist id="1960" name="Бас MIDI.1" type="midi" orig-track-id="1929" frozen="no" combine-ops="0"/>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups>
@@ -2043,11 +2037,15 @@
       <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="995" y-size="850"/>
+      <Window name="midi-connection-manager" visible="no" x-off="0" y-off="0" x-size="1150" y-size="923"/>
       <Window name="P-28-50" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-47" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-53" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-28-54" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1896" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
+      <Window name="P-1767-1786" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1792" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1767-1793" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-124" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-131" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-102-121" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -2094,10 +2092,6 @@
       <Window name="P-442-461" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-442-467" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-442-468" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1896" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
-      <Window name="P-1767-1786" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1792" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
-      <Window name="P-1767-1793" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-1929-2254" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="no"/>
       <Window name="P-1929-2063" visible="no" x-off="164" y-off="0" x-size="695" y-size="713" custom-ui="no"/>
       <Window name="P-1929-1948" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
@@ -2222,7 +2216,7 @@
           <Object id="processor 1786"/>
           <Object id="processor 1896"/>
         </Object>
-        <Object id="rtav 1767" height="62" visible="1" note-range-min="37" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 1767" height="62" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 1788" height="62" visible="0"/>
         <Object id="automation 1767 10/0/0" height="62" visible="0"/>
         <Object id="route 1929" color="30345:44506:60691"/>
@@ -2231,7 +2225,7 @@
           <Object id="processor 2063"/>
           <Object id="processor 2254"/>
         </Object>
-        <Object id="rtav 1929" height="62" visible="1" note-range-min="45" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 1929" height="62" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 1950" height="62" visible="0"/>
         <Object id="automation 1929 10/0/0" height="62" visible="0"/>
         <Object id="automation 1937" height="62" visible="0"/>
