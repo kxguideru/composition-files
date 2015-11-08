@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="51201" event-counter="1235093">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="51201" event-counter="1258549">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -2375,7 +2375,7 @@
           <Port symbol="CH_OUT" value="+3.000000"/>
           <Port symbol="LOOPMARKER" value="+0.000000"/>
           <Port symbol="LOOPMODE" value="+0.000000"/>
-          <Port symbol="MUTE" value="+1.000000"/>
+          <Port symbol="MUTE" value="+0.000000"/>
           <Port symbol="MOUSEX" value="+0.900826"/>
           <Port symbol="MOUSEY" value="+0.425532"/>
           <Port symbol="MOUSEBUTTON" value="+0.000000"/>
@@ -2404,7 +2404,7 @@
         <Controllable name="Output Channel" id="48228" flags="" value="3.000000000000" parameter="8"/>
         <Controllable name="Loop Marker" id="48230" flags="" value="0.000000000000" parameter="10"/>
         <Controllable name="Loop Mode" id="48232" flags="" value="0.000000000000" parameter="11"/>
-        <Controllable name="Mute Output" id="48234" flags="Toggle" value="1.000000000000" parameter="12"/>
+        <Controllable name="Mute Output" id="48234" flags="Toggle" value="0.000000000000" parameter="12"/>
         <Controllable name="hidden" id="48236" flags="" value="0.900826454163" parameter="13"/>
         <Controllable name="hidden" id="48238" flags="" value="0.425531923771" parameter="14"/>
         <Controllable name="hidden" id="48240" flags="" value="0.000000000000" parameter="15"/>
@@ -2692,7 +2692,7 @@
           <Port symbol="CH_OUT" value="+4.000000"/>
           <Port symbol="LOOPMARKER" value="+0.000000"/>
           <Port symbol="LOOPMODE" value="+0.000000"/>
-          <Port symbol="MUTE" value="+1.000000"/>
+          <Port symbol="MUTE" value="+0.000000"/>
           <Port symbol="MOUSEX" value="+0.897849"/>
           <Port symbol="MOUSEY" value="+0.265957"/>
           <Port symbol="MOUSEBUTTON" value="+0.000000"/>
@@ -2721,7 +2721,7 @@
         <Controllable name="Output Channel" id="48603" flags="" value="4.000000000000" parameter="8"/>
         <Controllable name="Loop Marker" id="48605" flags="" value="0.000000000000" parameter="10"/>
         <Controllable name="Loop Mode" id="48607" flags="" value="0.000000000000" parameter="11"/>
-        <Controllable name="Mute Output" id="48609" flags="Toggle" value="1.000000000000" parameter="12"/>
+        <Controllable name="Mute Output" id="48609" flags="Toggle" value="0.000000000000" parameter="12"/>
         <Controllable name="hidden" id="48611" flags="" value="0.897849440575" parameter="13"/>
         <Controllable name="hidden" id="48613" flags="" value="0.265957444906" parameter="14"/>
         <Controllable name="hidden" id="48615" flags="" value="0.000000000000" parameter="15"/>
@@ -3986,7 +3986,7 @@
       <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
       <ExportFilename>
         <Folder relative="true" path="/export"/>
-        <Field name="label" enabled="true" value="130-rhythm-4"/>
+        <Field name="label" enabled="true" value="140-lead"/>
         <Field name="session" enabled="false"/>
         <Field name="revision" enabled="false"/>
         <Field name="time" enabled="false" value="T_None"/>
@@ -4244,7 +4244,7 @@
           <Object id="processor 1786"/>
           <Object id="processor 1896"/>
         </Object>
-        <Object id="rtav 1767" height="62" visible="1" note-range-min="32" note-range-max="51" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
+        <Object id="rtav 1767" height="29" visible="1" note-range-min="32" note-range-max="51" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
         <Object id="automation 1788" height="184" visible="0"/>
         <Object id="automation 1767 10/0/0" height="184" visible="0"/>
         <Object id="route 1929" color="30345:44506:60691"/>
@@ -4253,7 +4253,7 @@
           <Object id="processor 2063"/>
           <Object id="processor 2254"/>
         </Object>
-        <Object id="rtav 1929" height="62" visible="1" note-range-min="44" note-range-max="61" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 1929" height="29" visible="1" note-range-min="44" note-range-max="61" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 1950" height="184" visible="0"/>
         <Object id="automation 1929 10/0/0" height="184" visible="0"/>
         <Object id="automation 1937" height="184" visible="0"/>
@@ -4266,12 +4266,12 @@
         <Object id="strip 26442" visible="1" strip-width="Wide">
           <Object id="processor 26461"/>
         </Object>
-        <Object id="rtav 26442" height="62" visible="1" note-range-min="36" note-range-max="51" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
+        <Object id="rtav 26442" height="29" visible="1" note-range-min="36" note-range-max="51" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-mode="Percussive"/>
         <Object id="automation 26463" height="62" visible="0"/>
         <Object id="automation 26442 10/0/0" height="62" visible="0"/>
         <Object id="route_group 37294" color="33792:58368:28928"/>
         <Object id="route 37295" color="58329:39425:58981"/>
-        <Object id="rtav 37295" height="62" visible="1" note-range-min="47" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 37295" height="29" visible="1" note-range-min="47" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 37316" height="62" visible="0"/>
         <Object id="automation 37295 10/0/0" height="62" visible="0"/>
         <Object id="strip 37295" strip-width="Wide" visible="1">
@@ -4284,19 +4284,19 @@
         <Object id="automation 37307" height="62" visible="0"/>
         <Object id="route_group 44060" color="58624:37632:29184"/>
         <Object id="route 44061" color="58981:29490:44236"/>
-        <Object id="rtav 44061" height="62" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="49" note-range-max="64" note-mode="Percussive"/>
+        <Object id="rtav 44061" height="29" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="49" note-range-max="64" note-mode="Percussive"/>
         <Object id="automation 44082" height="62" visible="0"/>
         <Object id="automation 44061 10/0/0" height="62" visible="0"/>
         <Object id="automation 44069" height="62" visible="0"/>
         <Object id="automation 44073" height="62" visible="0"/>
         <Object id="route 44096" color="32439:29490:58981"/>
-        <Object id="rtav 44096" height="62" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="50" note-range-max="63" note-mode="Percussive"/>
+        <Object id="rtav 44096" height="29" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="50" note-range-max="63" note-mode="Percussive"/>
         <Object id="automation 44117" height="136" visible="0"/>
         <Object id="automation 44096 10/0/0" height="136" visible="0"/>
         <Object id="automation 44104" height="136" visible="0"/>
         <Object id="automation 44108" height="136" visible="0"/>
         <Object id="route 44131" color="48869:31193:62387"/>
-        <Object id="rtav 44131" height="62" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="55" note-range-max="71"/>
+        <Object id="rtav 44131" height="29" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="55" note-range-max="71"/>
         <Object id="automation 44152" height="61" visible="0"/>
         <Object id="automation 44131 10/0/0" height="61" visible="0"/>
         <Object id="automation 44139" height="61" visible="0"/>
@@ -4324,15 +4324,15 @@
           <Object id="processor 49648"/>
           <Object id="processor 49807"/>
         </Object>
-        <Object id="automation 48234" height="62" visible="1"/>
-        <Object id="automation 48609" height="67" visible="1"/>
+        <Object id="automation 48234" height="62" visible="0"/>
+        <Object id="automation 48609" height="67" visible="0"/>
         <Object id="route_group 50149" color="58368:28928:52480"/>
         <Object id="route 50150" color="54825:58981:51647"/>
-        <Object id="rtav 50150" height="301" visible="1" note-range-min="47" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 50150" height="29" visible="1" note-range-min="47" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 50171" height="62" visible="0"/>
         <Object id="automation 50150 10/0/0" height="62" visible="0"/>
         <Object id="route 50185" color="58981:56097:39756"/>
-        <Object id="rtav 50185" height="62" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 50185" height="29" visible="1" note-range-min="60" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 50206" height="62" visible="0"/>
         <Object id="automation 50185 10/0/0" height="62" visible="0"/>
         <Object id="strip 50150" strip-width="Wide" visible="1">
@@ -4352,14 +4352,14 @@
         <Object id="automation 50197" height="62" visible="0"/>
         <Object id="route_group 51027" color="65280:23808:22272"/>
         <Object id="route 51028" color="58981:29490:31456"/>
-        <Object id="rtav 51028" height="62" visible="1"/>
+        <Object id="rtav 51028" height="29" visible="1"/>
         <Object id="automation 51049" height="62" visible="0"/>
         <Object id="automation 51052" height="62" visible="0"/>
         <Object id="automation 51028 10/0/0" height="62" visible="0"/>
         <Object id="automation 51036" height="62" visible="0"/>
         <Object id="automation 51040" height="62" visible="0"/>
         <Object id="route 51062" color="58981:29490:39812"/>
-        <Object id="rtav 51062" height="62" visible="1"/>
+        <Object id="rtav 51062" height="29" visible="1"/>
         <Object id="automation 51083" height="62" visible="0"/>
         <Object id="automation 51086" height="62" visible="0"/>
         <Object id="automation 51062 10/0/0" height="62" visible="0"/>
