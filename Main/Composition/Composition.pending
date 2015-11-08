@@ -482,7 +482,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state9">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Kicks.lv2/Kicks.ttl" last-preset-label="Kicks" parameter-changed-since-last-preset="no" state-dir="state10">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -778,7 +778,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state12">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Snares.lv2/Snares.ttl" last-preset-label="Snares" parameter-changed-since-last-preset="no" state-dir="state13">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1074,7 +1074,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state12">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Hats.lv2/Hats.ttl" last-preset-label="Hats" parameter-changed-since-last-preset="no" state-dir="state13">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>
@@ -1370,7 +1370,7 @@
           <Channels type="audio" count="2"/>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state12">
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/Fabla_Cymbals.lv2/Cymbals.ttl" last-preset-label="Cymbals" parameter-changed-since-last-preset="no" state-dir="state13">
           <Port symbol="volume" value="+0.750000"/>
           <Port symbol="compressor_attack" value="+0.150000"/>
           <Port symbol="compressor_decay" value="+0.300000"/>

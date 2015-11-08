@@ -1,4 +1,6 @@
 Main/Composition/export/*
+Samples
 Samples/*
 prepush.sh
+*.pending
 
