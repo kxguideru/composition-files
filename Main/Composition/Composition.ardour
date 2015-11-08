@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="Composition" sample-rate="48000" id-counter="49826" event-counter="756247">
+<Session version="3001" name="Composition" sample-rate="48000" id-counter="50149" event-counter="989402">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -126,6 +126,7 @@
     <Region name="Подклад MIDI-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="201728" position="1728000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="8.4053125" id="40592" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="40582" master-source-0="40582"/>
     <Region name="Подклад MIDI-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="201728" position="1728000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="8.4053125" id="40595" type="midi" first-edit="nothing" bbt-position="19|1|0" source-0="40582" master-source-0="40582"/>
     <Region name="Подклад MIDI-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3325952" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="138.581333333" id="40605" type="midi" first-edit="nothing" bbt-position="1|1|0" source-0="40599" master-source-0="40599"/>
+    <Region name="Подклад MIDI-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="3072000" position="96000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="128" id="40608" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="40599" master-source-0="40599"/>
     <Region name="Ударные MIDI-2.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="288000" length="192000" position="2976000" sync-position="288000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="7" start-beats="12" length-beats="8" id="40676" type="midi" first-edit="nothing" bbt-position="32|1|0" source-0="22715" master-source-0="22715"/>
     <Region name="Ударные MIDI-2.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="2784000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="8" start-beats="4" length-beats="8" id="40679" type="midi" first-edit="nothing" bbt-position="30|1|0" source-0="22715" master-source-0="22715"/>
     <Region name="Ударные MIDI-2.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="192000" position="2592000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="9" start-beats="4" length-beats="8" id="40682" type="midi" first-edit="nothing" bbt-position="28|1|0" source-0="22715" master-source-0="22715"/>
@@ -154,6 +155,11 @@
     <Region name="Арпеджио MIDI-2.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="768000" position="864000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="1" length-beats="32" id="49421" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="49187" master-source-0="49187"/>
     <Region name="Арпеджио MIDI-2.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="24000" length="384000" position="96000" sync-position="24000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="1" length-beats="16" id="49482" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="49187" master-source-0="49187"/>
     <Region name="Арпеджио MIDI-2.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="408000" length="384000" position="480000" sync-position="408000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="17" length-beats="16" id="49485" type="midi" first-edit="nothing" bbt-position="6|1|0" source-0="49187" master-source-0="49187"/>
+    <Region name="Подклад MIDI-5.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="768000" position="96000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="32" id="49827" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="40599" master-source-0="40599"/>
+    <Region name="Подклад MIDI-5.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="864000" length="2304000" position="864000" sync-position="864000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="36" length-beats="96" id="49830" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="40599" master-source-0="40599"/>
+    <Region name="Подклад MIDI-5.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="864000" length="2304000" position="864000" sync-position="864000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="36" length-beats="96" id="49839" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="40599" master-source-0="40599"/>
+    <Region name="Подклад MIDI-5.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="864000" length="768000" position="864000" sync-position="864000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="36" length-beats="32" id="49845" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="40599" master-source-0="40599"/>
+    <Region name="Подклад MIDI-5.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="1632000" length="1536000" position="1632000" sync-position="1632000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="68" length-beats="64" id="49848" type="midi" first-edit="nothing" bbt-position="18|1|0" source-0="40599" master-source-0="40599"/>
   </Regions>
   <Locations>
     <Location id="23678" name="Сесссия" start="72000" end="3456000" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -2317,7 +2323,7 @@
           <Port symbol="CH_OUT" value="+3.000000"/>
           <Port symbol="LOOPMARKER" value="+0.000000"/>
           <Port symbol="LOOPMODE" value="+0.000000"/>
-          <Port symbol="MUTE" value="+1.000000"/>
+          <Port symbol="MUTE" value="+0.000000"/>
           <Port symbol="MOUSEX" value="+0.900826"/>
           <Port symbol="MOUSEY" value="+0.425532"/>
           <Port symbol="MOUSEBUTTON" value="+0.000000"/>
@@ -2346,7 +2352,7 @@
         <Controllable name="Output Channel" id="48228" flags="" value="3.000000000000" parameter="8"/>
         <Controllable name="Loop Marker" id="48230" flags="" value="0.000000000000" parameter="10"/>
         <Controllable name="Loop Mode" id="48232" flags="" value="0.000000000000" parameter="11"/>
-        <Controllable name="Mute Output" id="48234" flags="Toggle" value="1.000000000000" parameter="12"/>
+        <Controllable name="Mute Output" id="48234" flags="Toggle" value="0.000000000000" parameter="12"/>
         <Controllable name="hidden" id="48236" flags="" value="0.900826454163" parameter="13"/>
         <Controllable name="hidden" id="48238" flags="" value="0.425531923771" parameter="14"/>
         <Controllable name="hidden" id="48240" flags="" value="0.000000000000" parameter="15"/>
@@ -2624,8 +2630,8 @@
         <ConfiguredOutput>
           <Channels type="midi" count="1"/>
         </ConfiguredOutput>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state2">
-          <Port symbol="VELOCITY" value="+64.000000"/>
+        <lv2 last-preset-uri="file:///home/andrey/.lv2/QMidiArp_Seq_Slow_Sequence_Edit.lv2/Slow_Sequence_Edit.ttl" last-preset-label="Slow Sequence Edit" parameter-changed-since-last-preset="yes" state-dir="state4">
+          <Port symbol="VELOCITY" value="+127.000000"/>
           <Port symbol="NOTELENGTH" value="+127.000000"/>
           <Port symbol="RESOLUTION" value="+1.000000"/>
           <Port symbol="LENGTH" value="+7.000000"/>
@@ -2634,9 +2640,9 @@
           <Port symbol="CH_OUT" value="+4.000000"/>
           <Port symbol="LOOPMARKER" value="+0.000000"/>
           <Port symbol="LOOPMODE" value="+0.000000"/>
-          <Port symbol="MUTE" value="+1.000000"/>
-          <Port symbol="MOUSEX" value="+0.225895"/>
-          <Port symbol="MOUSEY" value="+0.648936"/>
+          <Port symbol="MUTE" value="+0.000000"/>
+          <Port symbol="MOUSEX" value="+0.897849"/>
+          <Port symbol="MOUSEY" value="+0.265957"/>
           <Port symbol="MOUSEBUTTON" value="+0.000000"/>
           <Port symbol="MOUSEPRESSED" value="+2.000000"/>
           <Port symbol="ENABLE_NOTEIN" value="+1.000000"/>
@@ -2652,9 +2658,9 @@
           <Port symbol="HOST_TEMPO" value="+120.000000"/>
           <Port symbol="HOST_POSITION" value="+0.000000"/>
           <Port symbol="HOST_SPEED" value="+0.000000"/>
-          <Port symbol="DISPLAY_ZOOM" value="+2.000000"/>
+          <Port symbol="DISPLAY_ZOOM" value="+0.000000"/>
         </lv2>
-        <Controllable name="Velocity" id="48591" flags="" value="64.000000000000" parameter="2"/>
+        <Controllable name="Velocity" id="48591" flags="" value="127.000000000000" parameter="2"/>
         <Controllable name="Note Length" id="48593" flags="" value="127.000000000000" parameter="3"/>
         <Controllable name="Resolution" id="48595" flags="" value="1.000000000000" parameter="4"/>
         <Controllable name="Length" id="48597" flags="" value="7.000000000000" parameter="5"/>
@@ -2663,9 +2669,9 @@
         <Controllable name="Output Channel" id="48603" flags="" value="4.000000000000" parameter="8"/>
         <Controllable name="Loop Marker" id="48605" flags="" value="0.000000000000" parameter="10"/>
         <Controllable name="Loop Mode" id="48607" flags="" value="0.000000000000" parameter="11"/>
-        <Controllable name="Mute Output" id="48609" flags="Toggle" value="1.000000000000" parameter="12"/>
-        <Controllable name="hidden" id="48611" flags="" value="0.225895315409" parameter="13"/>
-        <Controllable name="hidden" id="48613" flags="" value="0.648936152458" parameter="14"/>
+        <Controllable name="Mute Output" id="48609" flags="Toggle" value="0.000000000000" parameter="12"/>
+        <Controllable name="hidden" id="48611" flags="" value="0.897849440575" parameter="13"/>
+        <Controllable name="hidden" id="48613" flags="" value="0.265957444906" parameter="14"/>
         <Controllable name="hidden" id="48615" flags="" value="0.000000000000" parameter="15"/>
         <Controllable name="hidden" id="48617" flags="" value="2.000000000000" parameter="16"/>
         <Controllable name="Enable Note" id="48619" flags="Toggle" value="1.000000000000" parameter="17"/>
@@ -2681,7 +2687,7 @@
         <Controllable name="hidden" id="48639" flags="" value="120.000000000000" parameter="28"/>
         <Controllable name="hidden" id="48641" flags="" value="0.000000000000" parameter="29"/>
         <Controllable name="hidden" id="48643" flags="" value="0.000000000000" parameter="30"/>
-        <Controllable name="Display Zoom" id="48645" flags="" value="2.000000000000" parameter="31"/>
+        <Controllable name="Display Zoom" id="48645" flags="" value="0.000000000000" parameter="31"/>
       </Processor>
       <Processor id="48802" name="Helm" active="yes" user-latency="0" type="lv2" unique-id="http://tytel.org/helm" count="1">
         <ConfiguredInput>
@@ -2885,7 +2891,7 @@
         <Controllable name="osc_feedback_transpose" id="48928" flags="" value="0.520833313465" parameter="66"/>
         <Controllable name="osc_feedback_tune" id="48930" flags="" value="0.495999991894" parameter="67"/>
         <Controllable name="osc_mix" id="48932" flags="" value="0.000000000000" parameter="68"/>
-        <Controllable name="pitch_bend_range" id="48934" flags="" value="0.083333335817" parameter="69"/>
+        <Controllable name="pitch_bend_range" id="48934" flags="" value="0.083333343267" parameter="69"/>
         <Controllable name="poly_lfo_amplitude" id="48936" flags="" value="1.000000000000" parameter="70"/>
         <Controllable name="poly_lfo_frequency" id="48938" flags="" value="0.615384638309" parameter="71"/>
         <Controllable name="poly_lfo_sync" id="48940" flags="" value="0.333333343267" parameter="72"/>
@@ -3219,7 +3225,10 @@
     </Playlist>
     <Playlist id="438" name="Хай-хэты" type="midi" orig-track-id="407" frozen="no" combine-ops="0"/>
     <Playlist id="37326" name="Подклад MIDI" type="midi" orig-track-id="37295" frozen="no" combine-ops="0">
-      <Region name="Подклад MIDI-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="3072000" position="96000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="128" id="40608" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="40599" master-source-0="40599"/>
+      <Region name="Подклад MIDI-5.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="768000" position="96000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="4" length-beats="32" id="49836" type="midi" first-edit="nothing" bbt-position="2|1|0" source-0="40599" master-source-0="40599"/>
+      <Region name="Подклад MIDI-5.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="96000" length="768000" position="864000" sync-position="96000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="4" length-beats="32" id="49871" type="midi" first-edit="nothing" bbt-position="10|1|0" source-0="40599" master-source-0="40599"/>
+      <Region name="Подклад MIDI-5.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="1632000" length="768000" position="1632000" sync-position="1632000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="68" length-beats="32" id="49854" type="midi" first-edit="nothing" bbt-position="18|1|0" source-0="40599" master-source-0="40599"/>
+      <Region name="Подклад MIDI-5.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="2400000" length="768000" position="2400000" sync-position="2400000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="100" length-beats="32" id="49857" type="midi" first-edit="nothing" bbt-position="26|1|0" source-0="40599" master-source-0="40599"/>
     </Playlist>
     <Playlist id="44092" name="Секвенция MIDI" type="midi" orig-track-id="44061" frozen="no" combine-ops="0">
       <Region name="Секвенция MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="72000" length="3096000" position="72000" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="3" length-beats="129" id="48422" type="midi" first-edit="nothing" bbt-position="1|4|0" source-0="48420" master-source-0="48420"/>
@@ -3328,7 +3337,7 @@
       <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
       <ExportFilename>
         <Folder relative="true" path="/export"/>
-        <Field name="label" enabled="true" value="130-rhythm-2"/>
+        <Field name="label" enabled="true" value="130-rhythm-3"/>
         <Field name="session" enabled="false"/>
         <Field name="revision" enabled="false"/>
         <Field name="time" enabled="false" value="T_None"/>
@@ -3431,7 +3440,7 @@
       <Window name="P-44061-48214" visible="no" x-off="0" y-off="193" x-size="594" y-size="425" custom-ui="yes"/>
       <Window name="P-44061-48272" visible="no" x-off="0" y-off="0" x-size="1107" y-size="495" custom-ui="yes"/>
       <Window name="P-44096-48551" visible="no" x-off="109" y-off="0" x-size="651" y-size="485" custom-ui="yes"/>
-      <Window name="P-44096-48589" visible="no" x-off="841" y-off="258" x-size="603" y-size="425" custom-ui="yes"/>
+      <Window name="P-44096-48589" visible="no" x-off="571" y-off="281" x-size="603" y-size="425" custom-ui="yes"/>
       <Window name="P-44096-48802" visible="no" x-off="0" y-off="0" x-size="1016" y-size="723" custom-ui="yes"/>
       <Window name="P-44096-49059" visible="no" x-off="0" y-off="60" x-size="840" y-size="377" custom-ui="yes"/>
       <Window name="P-44131-49087" visible="no" x-off="0" y-off="0" x-size="651" y-size="485" custom-ui="yes"/>
@@ -3584,7 +3593,7 @@
         <Object id="automation 26442 10/0/0" height="62" visible="0"/>
         <Object id="route_group 37294" color="33792:58368:28928"/>
         <Object id="route 37295" color="58329:39425:58981"/>
-        <Object id="rtav 37295" height="62" visible="1" note-range-min="47" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
+        <Object id="rtav 37295" height="74" visible="1" note-range-min="47" note-range-max="71" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors"/>
         <Object id="automation 37316" height="62" visible="0"/>
         <Object id="automation 37295 10/0/0" height="62" visible="0"/>
         <Object id="strip 37295" strip-width="Wide" visible="1">
@@ -3603,13 +3612,13 @@
         <Object id="automation 44069" height="62" visible="0"/>
         <Object id="automation 44073" height="62" visible="0"/>
         <Object id="route 44096" color="32439:29490:58981"/>
-        <Object id="rtav 44096" height="182" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="51" note-range-max="63" note-mode="Percussive"/>
-        <Object id="automation 44117" height="182" visible="0"/>
-        <Object id="automation 44096 10/0/0" height="182" visible="0"/>
-        <Object id="automation 44104" height="182" visible="0"/>
-        <Object id="automation 44108" height="182" visible="0"/>
+        <Object id="rtav 44096" height="266" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="50" note-range-max="63" note-mode="Percussive"/>
+        <Object id="automation 44117" height="136" visible="0"/>
+        <Object id="automation 44096 10/0/0" height="136" visible="0"/>
+        <Object id="automation 44104" height="136" visible="0"/>
+        <Object id="automation 44108" height="136" visible="0"/>
         <Object id="route 44131" color="48869:31193:62387"/>
-        <Object id="rtav 44131" height="254" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="55" note-range-max="71"/>
+        <Object id="rtav 44131" height="62" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="55" note-range-max="71"/>
         <Object id="automation 44152" height="61" visible="0"/>
         <Object id="automation 44131 10/0/0" height="61" visible="0"/>
         <Object id="automation 44139" height="61" visible="0"/>
@@ -3638,7 +3647,7 @@
           <Object id="processor 49807"/>
         </Object>
         <Object id="automation 48234" height="62" visible="1"/>
-        <Object id="automation 48609" height="182" visible="1"/>
+        <Object id="automation 48609" height="136" visible="1"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="no"/>
