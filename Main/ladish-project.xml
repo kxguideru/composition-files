@@ -2,8 +2,8 @@
 <!--
 ladish Project.
 -->
-<!-- Mon Nov  9 01:18:41 2015 -->
-<project name="Основной проект" uuid="0494e1c9-4de5-4aa0-90b8-ff542499d8ac">
+<!-- Mon Nov  9 02:07:38 2015 -->
+<project name="Основной проект" uuid="c30772db-2f44-40b3-8da5-f56e0ae852c9">
   <room>
     <port name="Left" uuid="871954a7-7c0f-4092-ae34-465e1f1bb0ca" type="audio" direction="capture" />
     <port name="Right" uuid="2dc1da00-cebd-47ea-a239-c30db9653e7c" type="audio" direction="capture" />
@@ -103,6 +103,14 @@ ladish Project.
           <port name="Арпеджио MIDI/audio_out 2" uuid="f92dac1d-6b43-4639-825d-18eaea9080ae" />
           <port name="LTC-in" uuid="04e63ad5-a932-4cb6-98fb-e395b5cb44f9" />
           <port name="LTC-out" uuid="163cb1e8-1bce-4cb1-a4bd-bb0bdc3c42c7" />
+          <port name="Лид MIDI/midi_in 1" uuid="579b159b-ce45-4800-a468-ff7435949966" />
+          <port name="Лид MIDI/midi_out 1" uuid="1a1caa92-f4b0-4ffc-9090-d7f7010ccb8e" />
+          <port name="Соло MIDI/midi_in 1" uuid="05400dfe-89da-4367-a1b8-62f649f64c61" />
+          <port name="Соло MIDI/midi_out 1" uuid="95b79386-532a-45b6-8adc-641ccfd67591" />
+          <port name="Лид MIDI/audio_out 1" uuid="834f733b-96ab-4b67-949a-53372679ee3a" />
+          <port name="Лид MIDI/audio_out 2" uuid="745e0df7-49da-4909-9593-2cc17082efd9" />
+          <port name="Соло MIDI/audio_out 1" uuid="6b100cc7-cc2e-42dc-9de2-73070a0fcdc7" />
+          <port name="Соло MIDI/audio_out 2" uuid="64880c47-3627-42f4-b76e-b4d416afcebb" />
         </ports>
       </client>
     </clients>
@@ -219,6 +227,14 @@ ladish Project.
         <port name="Арпеджио MIDI/audio_out 2" uuid="f92dac1d-6b43-4639-825d-18eaea9080ae" type="audio" direction="output" />
         <port name="LTC-in" uuid="04e63ad5-a932-4cb6-98fb-e395b5cb44f9" type="audio" direction="input" />
         <port name="LTC-out" uuid="163cb1e8-1bce-4cb1-a4bd-bb0bdc3c42c7" type="audio" direction="output" />
+        <port name="Лид MIDI/midi_in 1" uuid="579b159b-ce45-4800-a468-ff7435949966" type="midi" direction="input" />
+        <port name="Лид MIDI/midi_out 1" uuid="1a1caa92-f4b0-4ffc-9090-d7f7010ccb8e" type="midi" direction="output" />
+        <port name="Соло MIDI/midi_in 1" uuid="05400dfe-89da-4367-a1b8-62f649f64c61" type="midi" direction="input" />
+        <port name="Соло MIDI/midi_out 1" uuid="95b79386-532a-45b6-8adc-641ccfd67591" type="midi" direction="output" />
+        <port name="Лид MIDI/audio_out 1" uuid="834f733b-96ab-4b67-949a-53372679ee3a" type="audio" direction="output" />
+        <port name="Лид MIDI/audio_out 2" uuid="745e0df7-49da-4909-9593-2cc17082efd9" type="audio" direction="output" />
+        <port name="Соло MIDI/audio_out 1" uuid="6b100cc7-cc2e-42dc-9de2-73070a0fcdc7" type="audio" direction="output" />
+        <port name="Соло MIDI/audio_out 2" uuid="64880c47-3627-42f4-b76e-b4d416afcebb" type="audio" direction="output" />
       </ports>
       <dict>
         <key name="http://ladish.org/ns/canvas/x">1611.0</key>
@@ -277,6 +293,12 @@ ladish Project.
     <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="aa500486-517e-42aa-ae13-b8b6a96ef948" />
     <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="fb809206-47b8-4fed-afad-9270a627f220" />
     <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="dc379a17-57de-44cf-93ba-5f52c33fda47" />
+    <connection port1="834f733b-96ab-4b67-949a-53372679ee3a" port2="12c16dd6-931e-4059-933c-a2efd62e9abe" />
+    <connection port1="745e0df7-49da-4909-9593-2cc17082efd9" port2="13516e1a-c351-4616-ad30-4e9a7792d647" />
+    <connection port1="6b100cc7-cc2e-42dc-9de2-73070a0fcdc7" port2="12c16dd6-931e-4059-933c-a2efd62e9abe" />
+    <connection port1="64880c47-3627-42f4-b76e-b4d416afcebb" port2="13516e1a-c351-4616-ad30-4e9a7792d647" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="579b159b-ce45-4800-a468-ff7435949966" />
+    <connection port1="abc90af1-dcc4-41b3-b3eb-d4f5a9c4f708" port2="05400dfe-89da-4367-a1b8-62f649f64c61" />
   </connections>
   <applications>
     <application name="Ardour" uuid="bb87d686-c6dd-4f98-a83f-66fa18b7e2ee" terminal="false" level="0" autorun="true">ardour4 Composition</application>
