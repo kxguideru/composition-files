@@ -1,0 +1,17 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://www.openavproductions.com/fabla> ;
+	state:state [
+		<http://www.openavproductions.com/fabla#pad_12_filename> <Crash%20002%20-%20Milo.wav> ;
+		<http://www.openavproductions.com/fabla#pad_13_filename> <Ride%20001%20-%20Like%20That.wav> ;
+		<http://www.openavproductions.com/fabla#pad_14_filename> <Crash%20002%20-%20Mindenergy.wav> ;
+		<http://www.openavproductions.com/fabla#pad_15_filename> <Ride%20002%20-%20Lil%20Baby.wav>
+	] .
