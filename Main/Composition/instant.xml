@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
-  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusEdit" zoom="3040" snap-to="SnapToBeat" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="1608000" left-frame="0" y-origin="0,000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="240000">
+  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusEdit" zoom="3040" snap-to="SnapToBeat" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv2" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapNormal" edit-point="EditAtPlayhead" visible-track-count="-1" playhead="7330560" left-frame="1869600" y-origin="20,000000" show-measures="yes" maximised="no" follow-playhead="no" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="yes" show-editor-list="yes" editor-list-page="1" show-marker-lines="no" nudge-clock-value="240000">
     <geometry x-size="1600" y-size="840" x-pos="-4" y-pos="-1" edit-horizontal-pane-pos="1455" notebook-shrunk="1" edit-vertical-pane-pos="580"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
+      <RouteView id="37295"/>
       <Marker id="23678" start="yes"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
